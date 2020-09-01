@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0 (1.0+r73+1)"
-   sodipodi:docname="logobez.svg"
-   id="svg18"
-   viewBox="0 0 70 100"
-   version="1.1"
+   width="70mm"
    height="100mm"
-   width="70mm">
+   version="1.1"
+   viewBox="0 0 70 100"
+   id="svg18"
+   sodipodi:docname="logobez.svg"
+   inkscape:version="1.0 (1.0+r73+1)">
   <metadata
      id="metadata24">
     <rdf:RDF>
@@ -22,54 +22,65 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs22" />
   <sodipodi:namedview
-     inkscape:current-layer="svg18"
-     inkscape:window-maximized="1"
-     inkscape:window-y="1080"
-     inkscape:window-x="0"
-     inkscape:cy="188.97638"
-     inkscape:cx="115.48137"
-     inkscape:zoom="2.6484792"
-     showgrid="false"
-     id="namedview20"
-     inkscape:window-height="2112"
-     inkscape:window-width="3840"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="3840"
+     inkscape:window-height="2112"
+     id="namedview20"
+     showgrid="false"
+     inkscape:zoom="2.6484792"
+     inkscape:cx="97.924124"
+     inkscape:cy="188.97638"
+     inkscape:window-x="0"
+     inkscape:window-y="1080"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg18" />
   <rect
-     x="1.04"
-     y="1.85"
-     width="68.099998"
-     height="68.099998"
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
+     id="rect2"
+     style="opacity:0.99;fill:#89cbc9;stroke:none;stroke-width:1.21;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1;fill-opacity:1"
      ry="34.099998"
-     style="opacity:0.99;fill:none;stroke:none;stroke-width:1.21;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
-     id="rect2" />
+     height="68.099998"
+     width="68.099998"
+     y="1.85"
+     x="1.04" />
   <path
-     d="m 31.6,36.4 c 3.62,-12.5 2.16,-21.2 0,-25.6 -2.16,6.89 -4.07,14 0,25.6 z"
-     style="fill:none;stroke:none;stroke-width:1.21;stroke-linejoin:round;stroke-opacity:1"
-     id="path4" />
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
+     id="path4"
+     style="fill:none;stroke:#ffffff;stroke-width:1.21;stroke-linejoin:round;stroke-opacity:1"
+     d="m 31.6,36.4 c 3.62,-12.5 2.16,-21.2 0,-25.6 -2.16,6.89 -4.07,14 0,25.6 z" />
   <path
-     d="m 31.6,62 c 3.62,-12.5 2.16,-21.2 0,-25.6 -2.16,6.89 -4.07,14 0,25.6 z"
-     style="fill:none;stroke:none;stroke-width:1.21;stroke-linejoin:round;stroke-opacity:1"
-     id="path6" />
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
+     id="path6"
+     style="fill:none;stroke:#ffffff;stroke-width:1.21;stroke-linejoin:round;stroke-opacity:1"
+     d="m 31.6,62 c 3.62,-12.5 2.16,-21.2 0,-25.6 -2.16,6.89 -4.07,14 0,25.6 z" />
   <path
-     d="M 31.6,36.9 C 41.8,32.37 46.7,26.5 48.4,22.6 42.71,24.98 37,27.65 31.6,36.9 Z"
-     style="fill:none;stroke:none;stroke-width:1.21;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="path8" />
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
+     id="path8"
+     style="fill:none;stroke:#ffffff;stroke-width:1.21;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     d="M 31.6,36.9 C 41.8,32.37 46.7,26.5 48.4,22.6 42.71,24.98 37,27.65 31.6,36.9 Z" />
   <path
-     d="M 31.6,35.9 C 37.69,45.22 44.3,49.2 48.4,50.2 45.14,44.96 41.61,39.8 31.6,35.9 Z"
-     style="fill:none;stroke:none;stroke-width:1.21;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-     id="path10" />
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
+     id="path10"
+     style="fill:none;stroke:#ffffff;stroke-width:1.21;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     d="M 31.6,35.9 C 37.69,45.22 44.3,49.2 48.4,50.2 45.14,44.96 41.61,39.8 31.6,35.9 Z" />
 </svg>
