@@ -1,3 +1,0 @@
-# My blog
-
-under construction

@@ -1,0 +1,10 @@
+<svg width="70mm" height="100mm" version="1.1" viewBox="0 0 70 100" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <rect x="1.04" y="1.85" width="68.1" height="68.1" ry="34.1" style="fill:none;opacity:.99;stroke-linecap:round;stroke-linejoin:bevel;stroke-width:1.21;stroke:#fff"/>
+        <path d="m31.6 36.4c3.62-12.5 2.16-21.2 0-25.6-2.16 6.89-4.07 14 0 25.6z" style="fill:none;stroke-linejoin:round;stroke-width:1.21;stroke:#fff"/>
+        <path d="m31.6 62c3.62-12.5 2.16-21.2 0-25.6-2.16 6.89-4.07 14 0 25.6z" style="fill:none;stroke-linejoin:round;stroke-width:1.21;stroke:#fff"/>
+        <path d="m31.6 36.9c10.2-4.53 15.1-10.4 16.8-14.3-5.69 2.38-11.4 5.05-16.8 14.3z" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.21;stroke:#fff"/>
+        <path d="m31.6 35.9c6.09 9.32 12.7 13.3 16.8 14.3-3.26-5.24-6.79-10.4-16.8-14.3z" style="fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.21;stroke:#fff"/>
+        <text transform="scale(1.03 .975)" x="2.3586454" y="88.823608" style="fill:#ffffff;font-family:Dingbats;font-size:16.7px;line-height:1.25;paint-order:markers stroke fill;stroke-width:.251;stroke:#ffffff" xml:space="preserve"><tspan x="2.3586454" y="88.823608" style="fill:#ffffff;font-family:'Liberation Sans';font-size:16.7px;paint-order:markers stroke fill;stroke-width:.251;stroke:#ffffff">KARIKO</tspan></text>
+    </g>
+</svg>
