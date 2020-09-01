@@ -138,6 +138,22 @@ h3.heading {
   transition: transform .5s ease;
   height: 20rem;
 }
+
+.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 9s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 000;
+  }
+}
+
 /*---Body---*/
 h1 {
     font-size: 40px;
