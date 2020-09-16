@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif;
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
 }
 
@@ -205,17 +205,44 @@ h3{
 
 /*---Blog---*/
 
-  @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+  /* @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
   body {
     font-family: "Roboto", sans-serif;
     background-color:white;
-  }
+  } */
   
+  
+  .textblog {
+    color: #1ebba3;
+  }
+
+  .btn-outline-info {
+    border-color: #1ebba3;
+    background-color: white;
+    color: #1ebba3;
+    border-radius: 0;
+    padding: .5rem 1.1rem;
+    font-size: 1.2rem;
+    margin-left: 0rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn-outline-info:hover {
+  border-color: #1ebba3;
+  background-color: #1ebba3;
+  color: white;
+  }
+
+    .share:hover {
+    color: #1ebba3;
+  }
+
   ._textGray {
     color: #7a7a7a;
   }
   ._day {
-    color: #bababa;
+    color: #1ebba3;
     font-size: 2rem;
   }
   ._day ._date {
@@ -224,6 +251,11 @@ h3{
   }
   ._moveTop {
     top: -1.25rem;
+  }
+
+  .size {
+    padding: .6rem;
+    font-size: 1.2rem;
   }
 
 /*---Contact--Footer---*/
@@ -263,6 +295,10 @@ hr.socket {
 .list-inline .list-inline-item li {
   padding-right: .7rem;
 }
+
+#domu:hover {
+  color:  #1ebba3;
+  }
 
 /*---Media Queries---*/
 
