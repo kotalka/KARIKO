@@ -368,25 +368,35 @@ hr.socket {
 
 @media (max-width: 767px){
     .carousel-caption h1 {
-      font-size: 2.3rem;
+      /* font-size: 2.3rem;
       letter-spacing: .15rem;
+      padding-bottom: 5rem; */
+
+      font-size: 1.3rem;
+      letter-spacing: .8rem;
       padding-bottom: 5rem;
     }
   
   .carousel-caption h3 {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem;
+    padding-bottom: 1.2rem; */
+
+    font-size: 0.8rem;
     padding-bottom: 1.2rem;
     }
   
   .btn-lg {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 0.5rem;
   }
   .narrow h1 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    font-size: 1.2rem;
   }
 
   p.lead {
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 0.5rem;
   }
 }
 
