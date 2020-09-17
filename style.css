@@ -157,7 +157,7 @@ h3.heading {
 
 /*---Body---*/
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 100px;
     margin-bottom: 50px; 
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -197,6 +197,11 @@ h3 {
 
 
   /*---Portfolio---*/
+
+.margin-down  {
+    margin-bottom: 50px;
+    
+  }
 
 .jumbotron {
     border-radius: 0;
