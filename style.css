@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .offset:before {
@@ -175,6 +175,24 @@ h3 {
     font-weight: 400;
     margin-bottom: 50px;
     margin-top: 50px;
+  }
+
+  h4 {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+
+  h5 {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
 
 
