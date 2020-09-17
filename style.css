@@ -248,22 +248,10 @@ h3 {
     background-color: white;
   }
 
-  .border-blog1 {
+  .borderbor {
   background-color: white;
-  border-color:#f1f1f1;
-    border-radius: 0rem;
-    border-width: 5px;
-    border-style: solid;
   }
 
-  .border-blog2 {
-    background-color: white;
-    border-color:#f1f1f1;
-    border-radius: 0rem;
-    border-width: 5px;
-    border-style: solid;
-    border-top: none;
-    }
 
   .btn-outline-info {
     border-color: #89CBC9;
@@ -296,6 +284,7 @@ h3 {
   ._day {
     color: #89CBC9;
     font-size: 2rem;
+    margin-bottom: 50px;
   }
 
   .sdilej {
@@ -318,7 +307,7 @@ h3 {
   }
 
   #mujblog {
-    background-color:white;
+    background-color: #f1f1f1;
   }
 
 
@@ -458,3 +447,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
+
+
