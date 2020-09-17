@@ -216,7 +216,6 @@ h3 {
 }
 
 
-
 .row.no-padding [class*=col-] {
   padding: 0;
 }
@@ -245,17 +244,26 @@ h3 {
   } */
   
 
-  #textblog {
-    
+  #projekty {
+    background-color: white;
   }
 
-  .border-blog {
+  .border-blog1 {
   background-color: white;
-  border-radius: .5rem;
-  border-style: solid;
-  border-width: .5rem;
-  border-color: white;
+  border-color:#f1f1f1;
+    border-radius: 0rem;
+    border-width: 5px;
+    border-style: solid;
   }
+
+  .border-blog2 {
+    background-color: white;
+    border-color:#f1f1f1;
+    border-radius: 0rem;
+    border-width: 5px;
+    border-style: solid;
+    border-top: none;
+    }
 
   .btn-outline-info {
     border-color: #89CBC9;
@@ -310,7 +318,7 @@ h3 {
   }
 
   #mujblog {
-    background-color: #f1f1f1;
+    background-color:white;
   }
 
 
