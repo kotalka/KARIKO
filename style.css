@@ -317,14 +317,14 @@ h3 {
 
 /*---Contact--Footer---*/
 footer {
-  color:black;
-  padding: 2rem 0 3rem;
-  margin-top: 1rem;
+  background-color: #89CBC9;
+  /* padding: 2rem 0 3rem; */
+  /* margin-top: 1rem; */
 }
 
 footer img {
-  height: 3rem;
-  margin: 1.5rem 0;
+  height: 2rem;
+  /* margin: 1.5rem 0; */
 }
 
 footer a {
@@ -333,20 +333,20 @@ footer a {
 
 footer svg.svg-inline--fa {
   font-size: 1.6rem;
-  margin: 1.2rem .5rem 0 0;
+  /* margin: 1.2rem .5rem 0 0; */
 }
 
 footer svg.svg-inline--fa:hover {
-color:  #1ebba3;
+color: grey;
 }
 
-hr.socket {
+/* hr.socket {
   border-top: .2rem solid #89CBC9;
   width: 100%;
-}
+} */
 
 .link {
-  color:#7A656A;
+  color: white;
 }
 
 .list-inline .list-inline-item li {
@@ -354,7 +354,7 @@ hr.socket {
 }
 
 #domufooter:hover {
-  color:  #1ebba3;
+  color:  grey;
   }
 
 .mezera {
