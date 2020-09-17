@@ -41,7 +41,7 @@ content:"";
     color:  #89CBC9;
   }
  /*---Header---*/
-  #home {
+  #domu {
     background-color: #89CBC9;
     color: white;
     /* height: 50rem; */
@@ -399,7 +399,7 @@ hr.socket {
 
 /*============= COURSE SECTION =============*/
 
-.narrow {
+/* .narrow {
   width: 75%;
   margin: 0 auto;
   padding-top: 2rem;
@@ -427,7 +427,7 @@ hr.socket {
   border-color: #189582;
   background-color: #189582;
   color: white;
-}
+} */
 
 /*============ BOOTSTRAP BREAK POINTS:
 
