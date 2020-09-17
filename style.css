@@ -4,6 +4,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
+  font-size: 25px;
 }
 
 .offset:before {
@@ -156,16 +157,25 @@ h3.heading {
 
 /*---Body---*/
 h1 {
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px; }
-h3{
-    font-size: 27px;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-bottom: 50px; 
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 400;
-    margin-bottom: 75px; }
+
+  }
+
+h3 {
+    font-size: 35px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: none;
+    font-style: italic;
+    font-weight: 400;
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
 
 
   /*---Portfolio---*/
@@ -211,7 +221,10 @@ h3{
     background-color:white;
   } */
   
-  
+  .margintopblog  {
+    margin-top: 0;
+  }
+
   .textblog {
     color: #1ebba3;
   }
@@ -296,8 +309,12 @@ hr.socket {
   padding-right: .7rem;
 }
 
-#domu:hover {
+#domufooter:hover {
   color:  #1ebba3;
+  }
+
+.mezera {
+  margin-top: 1rem;
   }
 
 /*---Media Queries---*/
