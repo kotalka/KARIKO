@@ -279,8 +279,9 @@ h3 {
   }
 
   ._textGray {
-    color: #7A656A;
+    color: #89CBC9;
   }
+
   ._day {
     color: #89CBC9;
     font-size: 2rem;
@@ -288,7 +289,6 @@ h3 {
   }
 
   .sdilej {
-    color: #7A656A;
     font-size: 1.2rem;
     font-weight: bold;
   }
@@ -311,9 +311,6 @@ h3 {
   }
 
 
-  #text-brown {
-    color: #7a7a7a;
-  }
 
 /*---Contact--Footer---*/
 footer {
@@ -447,5 +444,4 @@ Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 
 =============*/
-
 
