@@ -369,12 +369,16 @@ color:#7A656A;
       letter-spacing: .15rem;
       padding-bottom: 5rem; */
       font-size: 22px;
+      margin-top: 50px;
+      margin-bottom: 30px; 
     }
 
     h3 {
       /* font-size: 1.2rem;
       padding-bottom: 1.2rem; */
       font-size: 20px;
+      margin-top: 30px;
+      margin-bottom: 30px; 
       }
 
     h4 {
@@ -394,7 +398,7 @@ color:#7A656A;
     }
 
     #logo {
-    height: 200px;
+    height: 300px;
     }
 
   .btn-sm {
