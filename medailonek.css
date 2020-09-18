@@ -92,8 +92,12 @@ color: #89CBC9;
 
   .textbig {
     font-size: 20px;
-    font-weight: 100;
+    font-weight: 300px;
   }
+
+  .textleft {
+    font-weight: 400;
+      }
 }
  
   
