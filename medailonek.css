@@ -37,8 +37,9 @@ font-weight: normal;
   }
 
 .textbig {
-  font-size: 20px;
+  font-size: 25px;
   color: #89CBC9;
+  font-weight: 100;
     }
 
 
