@@ -5,18 +5,19 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+table {
+  font-size: 20px;
+}
+
 img{
     height: 320px;
     margin-bottom: 50px;
   }
 
 td {
-  /* width: 300px; */
   padding: 0;
-
 }
 
- 
 .left {
   text-align: right;
   padding-right: 20px;
@@ -24,7 +25,6 @@ td {
 
 .right {
   text-align: left;
-  /* border-left: 1px solid #cccccc; */
   padding-left: 20px;
 } 
 
@@ -37,7 +37,8 @@ font-weight: normal;
   }
 
 .textbig {
-  font-size: 18px;
+  font-size: 20px;
+  color: #89CBC9;
     }
 
 
@@ -46,21 +47,16 @@ font-weight: normal;
 @media (max-width: 767px){
 
   table {
-    /* font-size: 1rem; */
-    font-size: 18px;
-    
+    font-size: 12px;
   }
 
-
-    img{
+  img{
       height: 220px;
-    }
+  }
 
-   
-
-    .textbig {
-      font-size: 18px;
-        }
+  .textbig {
+      font-size: 15px;
+  }
 }
  
   
