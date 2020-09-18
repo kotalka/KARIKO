@@ -34,6 +34,10 @@ border-left: 1px solid #cccccc;
 font-weight: 300;
   }
 
+.texright{
+    font-weight: 300;
+      }
+
 .textbig {
   font-size: 24px;
   color: #89CBC9;
@@ -97,6 +101,10 @@ color: #89CBC9;
 
   .textleft {
     font-weight: 400;
+      }
+
+  .texright{
+    font-weight: 300;
       }
 }
  
