@@ -9,10 +9,13 @@ img{
     height: 320px;
     margin-bottom: 50px;
   }
+
 td {
   /* width: 300px; */
   padding: 0;
+
 }
+
  
 .left {
   text-align: right;
@@ -33,6 +36,10 @@ border-left: 1px solid #cccccc;
 font-weight: normal;
   }
 
+.textbig {
+  font-size: 18px;
+    }
+
 
 
 
@@ -40,7 +47,8 @@ font-weight: normal;
 
   table {
     /* font-size: 1rem; */
-    font-size: 10px;
+    font-size: 18px;
+    
   }
 
 
@@ -48,6 +56,11 @@ font-weight: normal;
       height: 220px;
     }
 
+   
+
+    .textbig {
+      font-size: 18px;
+        }
 }
  
   
