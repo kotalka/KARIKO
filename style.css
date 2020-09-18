@@ -191,17 +191,19 @@ h3 {
     font-weight: 400;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
-    margin-bottom: 15px;
-    margin-top: 15px;
+    
   }
 
 
   /*---Portfolio---*/
 
-.margin-down  {
-    margin-bottom: 50px;
+/* .margin-down  {
+    margin-bottom: 25px;
     
-  }
+  } */
+.border-light {
+  border: none; 
+}
 
 .jumbotron {
     border-radius: 0;
@@ -252,11 +254,13 @@ h3 {
   background-color: white;
   }
 
+  .btn-light {
+    background-color:#f1f1f1;
+    }
+
 
   .btn-outline-info {
     border-color: #89CBC9;
-    background-color: white;
-    background-color: white;
     color:  #89CBC9;
     border-radius: .6rem;
     border-width: 2px;
@@ -285,15 +289,14 @@ h3 {
   ._day {
     color: #89CBC9;
     font-size: 2rem;
-    margin-bottom: 50px;
   }
 
 
 
   ._day ._date {
     font-size: 6.625rem;
-    line-height: 0.8;
   }
+
   ._moveTop {
     top: -1.25rem;
   }
