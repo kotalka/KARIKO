@@ -7,7 +7,6 @@ body {
 
 table {
   font-size: 20px;
-  margin-left: 40px;
 }
 
 img{
@@ -37,9 +36,9 @@ font-weight: 200;
   }
 
 .textbig {
-  font-size: 25px;
+  font-size: 24px;
   color: #89CBC9;
-  font-weight: 50;
+  font-weight: 100;
     }
 
 /*---Contact--Footer---*/
