@@ -7,16 +7,15 @@ body {
 
 table {
   font-size: 20px;
+  margin-left: 40px;
 }
 
 img{
     height: 320px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 
-td {
-  padding: 0;
-}
 
 .left {
   text-align: right;
@@ -30,6 +29,7 @@ td {
 
 #right {
 border-left: 1px solid #cccccc;
+
 } 
 
 .textleft {
@@ -39,12 +39,49 @@ font-weight: 200;
 .textbig {
   font-size: 25px;
   color: #89CBC9;
-  font-weight: 100;
+  font-weight: 50;
     }
 
+/*---Contact--Footer---*/
+footer {
+  background-color: white;
+  
+}
 
+footer img {
+  height: 2rem;
+}
 
+footer a {
+  color: white;
+}
 
+footer svg.svg-inline--fa {
+  font-size: 1.6rem;
+  
+}
+
+footer svg.svg-inline--fa:hover {
+color: #89CBC9;
+}
+
+.link {
+  color: #7A656A;
+}
+
+.list-inline .list-inline-item li {
+  padding-right: .7rem;
+}
+
+#domufooter:hover {
+  color: #89CBC9;
+  }
+
+.mezera {
+  margin-top: 1rem;
+  }
+
+/*---Media---*/
 @media (max-width: 767px){
 
   table {
