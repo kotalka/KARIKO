@@ -393,7 +393,10 @@ color:#7A656A;
    
     }
 
-  
+    #logo {
+    height: 150px;
+    }
+
   .btn-sm {
     /* font-size: 1rem; */
     font-size: 12px;
