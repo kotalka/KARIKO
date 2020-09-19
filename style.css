@@ -36,7 +36,7 @@ content:"";
     padding-top: .8rem;
   }
 
-  .navbar-dark .navbar-nav .nav-link.active,
+  .navbar-dark .navbar-nav,
   .navbar-dark .navbar-nav .nav-link:hover {
     color:  #89CBC9;
   }
