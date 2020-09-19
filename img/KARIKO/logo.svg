@@ -41,7 +41,7 @@
      inkscape:window-width="1920"
      inkscape:window-height="1032"
      id="namedview20"
-     showgrid="false"
+     showgrid="true"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:zoom="1.6234774"
@@ -55,6 +55,9 @@
        position="-34.387349,71.316713"
        orientation="1,0"
        id="guide856" />
+    <inkscape:grid
+       id="grid921"
+       type="xygrid" />
   </sodipodi:namedview>
   <rect
      id="rect2"
@@ -95,12 +98,12 @@
      xml:space="preserve"
      style="font-size:17.5176px;line-height:1.25;font-family:Dingbats;fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;"
      y="86.105965"
-     x="2.4741096"
+     x="3.0130138"
      transform="scale(0.981931,1.0184015)"
      inkscape:export-xdpi="241"
      inkscape:export-ydpi="241"><tspan
        id="tspan12"
        style="font-size:17.5176px;font-family:'Liberation Sans';fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;"
        y="86.105965"
-       x="2.4741096">KARIKO</tspan></text>
+       x="3.0130138">KARIKO</tspan></text>
 </svg>
