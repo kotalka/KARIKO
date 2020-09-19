@@ -134,8 +134,9 @@ h3.heading {
   background-color:#f1f1f1;
   /* height: 50rem; */
 }
+
 #zarovka {
-  
+  width: 30%;
 }
 
 .path {
@@ -161,7 +162,6 @@ h1 {
     text-transform: none;
     font-style: italic;
     font-weight: 400;
-
   }
 
 h3 {
@@ -363,7 +363,7 @@ font-style: italic;
 
 .mezera {
   margin-top: 1rem;
-  }
+  }margin-top: -100px;
 
 /*---Media Queries---*/
 
@@ -379,6 +379,7 @@ font-style: italic;
 
   #zarovka {
     width: 70%; 
+    /* margin-top: -100px; */
   }
 
   
