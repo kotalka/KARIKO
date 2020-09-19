@@ -20,7 +20,7 @@ content:"";
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(0 ,0 ,0 , .1)!important;
+    background: rgba(0 ,0 ,0 , .05)!important;
   }
 
   .navbar-brand img {
@@ -368,7 +368,7 @@ color:#7A656A;
     font-weight: 400;
     font-size: 12px;
     letter-spacing: .1rem;
-    background: rgba(0 ,0 ,0 , .1)!important;
+    background: rgba(0 ,0 ,0, .05)!important;
   }
 
   .collapse:hover {
