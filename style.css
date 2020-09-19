@@ -15,7 +15,7 @@ content:"";
 }
 
   /*---Navbar---*/
-  .navbar {
+  /* .navbar {
     text-transform: uppercase;
     font-weight: 700;
     font-size: .9rem;
@@ -40,7 +40,7 @@ content:"";
   .navbar-dark .navbar-nav,
   .navbar-dark .navbar-nav .nav-link:hover {
     color:  #89CBC9;
-  }
+  } */
  /*---Header---*/
   #domu {
     background-color: #89CBC9;
@@ -52,13 +52,13 @@ content:"";
   }
   
     img {
-    /* height: 20rem; */
+    height: 20rem;
   }
 
-   #logobez {
+   /* #logobez {
     height: 3rem;
     margin: 0;
-  }
+  } */
   
   /*
   header a {
