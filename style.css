@@ -135,25 +135,24 @@ h3.heading {
   /* height: 50rem; */
 }
 #zarovka {
-  max-width: 100%;
-  transition: transform .5s ease;
-  height: 20rem;
+  height: 400px; 
 }
 
 .path {
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 9s linear alternate infinite;
+  stroke-dasharray: 600;
+  stroke-dashoffset: 1;
+  animation: dash 12s linear alternate infinite;
 }
 
 @keyframes dash {
   from {
-    stroke-dashoffset: 1000;
+    stroke-dashoffset: 600;
   }
   to {
     stroke-dashoffset: 000;
   }
 }
+
 
 /*---Body---*/
 h1 {
@@ -359,7 +358,7 @@ font-style: italic;
 }
 
 #viceomne:hover {
-  color: #1ebba3;
+  color: #89CBC9;
   }
 
 .mezera {
@@ -378,6 +377,9 @@ font-style: italic;
     background: rgba(0 ,0 ,0, .05)!important;
   }
 
+  #zarovka {
+    height: 150px; 
+  }
 
   
   p {
