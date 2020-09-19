@@ -20,7 +20,7 @@ content:"";
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(0 ,0 ,0 , .2)!important;
+    background: rgba(0 ,0 ,0 , .1)!important;
   }
 
   .navbar-brand img {
@@ -362,6 +362,14 @@ color:#7A656A;
 /*---Media Queries---*/
 
 @media (max-width: 767px){
+
+  .navbar {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    background: rgba(0 ,0 ,0 , .1)!important;
+  }
 
   p {
     /* font-size: 1rem; */
