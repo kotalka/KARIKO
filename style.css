@@ -371,10 +371,11 @@ color:#7A656A;
     background: rgba(0 ,0 ,0, .05)!important;
   }
 
-  .collapse:hover {
-    color: #89CBC9;
+  .navbar-toggler-icon:hover {
+    color: hotpink;
   }
 
+  
   p {
     /* font-size: 1rem; */
     font-size: 12px;
