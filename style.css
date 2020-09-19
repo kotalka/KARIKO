@@ -191,6 +191,7 @@ h3 {
     font-weight: 400;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
+    color: black;
     
   }
 
@@ -396,7 +397,7 @@ color:#7A656A;
       /* font-size: 2.3rem;
       letter-spacing: .15rem;
       padding-bottom: 5rem; */
-      font-size: 15px;
+      font-size: 25px;
    
     }
 
