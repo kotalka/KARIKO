@@ -16,8 +16,10 @@
 
 #srdce {
     height: 70vw;
-    margin: 10vw;
+    margin: 12vw;
 }
+
+
 
 @media (max-width: 767px) {
 
