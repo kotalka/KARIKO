@@ -26,6 +26,7 @@
   animation: dash 12s linear alternate infinite;
 }
 
+
 @keyframes dash {
   from {
     stroke-dashoffset: 600;
