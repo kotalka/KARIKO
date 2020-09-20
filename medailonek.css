@@ -9,11 +9,11 @@ table {
   font-size: 20px;
 }
 
-img{
-    height: 320px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+img {
+  height: 320px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
 
 .left {
@@ -24,30 +24,30 @@ img{
 .right {
   text-align: left;
   padding-left: 20px;
-} 
+}
 
 #right {
-border-left: 1px solid #cccccc;
-} 
+  border-left: 1px solid #cccccc;
+}
 
 .textleft {
-font-weight: 300;
-  }
+  font-weight: 300;
+}
 
-.texright{
-    font-weight: 300;
-      }
+.texright {
+  font-weight: 300;
+}
 
 .textbig {
   font-size: 24px;
   color: #89CBC9;
   font-weight: 300;
-    }
+}
 
 /*---Contact--Footer---*/
 footer {
   background-color: white;
-  
+
 }
 
 footer img {
@@ -60,11 +60,11 @@ footer a {
 
 footer svg.svg-inline--fa {
   font-size: 1.6rem;
-  
+
 }
 
 footer svg.svg-inline--fa:hover {
-color: #89CBC9;
+  color: #89CBC9;
 }
 
 .link {
@@ -77,21 +77,21 @@ color: #89CBC9;
 
 #domufooter:hover {
   color: #89CBC9;
-  }
+}
 
 .mezera {
   margin-top: 1rem;
-  }
+}
 
 /*---Media---*/
-@media (max-width: 767px){
+@media (max-width: 767px) {
 
   table {
     font-size: 12px;
   }
 
-  img{
-      height: 220px;
+  img {
+    height: 220px;
   }
 
   .textbig {
@@ -101,13 +101,9 @@ color: #89CBC9;
 
   .textleft {
     font-weight: 400;
-      }
+  }
 
-  .texright{
+  .texright {
     font-weight: 300;
-      }
+  }
 }
- 
-  
-
-  
