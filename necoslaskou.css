@@ -2,13 +2,26 @@
     stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
     animation: dash 9s linear alternate infinite;
-  }
-  
-  @keyframes dash {
+}
+
+@keyframes dash {
     from {
-      stroke-dashoffset: 1000;
+        stroke-dashoffset: 1000;
     }
+
     to {
-      stroke-dashoffset: 000;
+        stroke-dashoffset: 000;
     }
-  }
+}
+
+#srdce {
+    height: 70vh;
+    margin: 10vh;
+}
+
+@media (max-width: 767px) {
+
+    #srdce {
+        height: 50vh;
+
+    }
