@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&display=swap');
+
+/*---Sider---*/
+.carousel-item {
+    height: 100vh;
+    }
+    
+    .carousel-caption {
+      position: absolute;
+      top: 38%;
+      text-transform: uppercase;
+      width: 100%;
+      right: 0;
+      left: 0;
+      }
+    
+    .carousel-caption h1 {
+      font-size: 3.8rem;
+      font-weight: 700;
+      letter-spacing: .3rem;
+      text-shadow: .1rem .1rem .8rem black;
+      padding-bottom: 1rem;
+      }
+    
+    .carousel-caption h3 {
+      font-size: 2rem;
+      text-shadow: .1rem .1rem .5rem black;
+      padding-bottom: 1.6rem;
+      }
+    
+    .btn-lg {
+      border-width: medium;
+      border-radius: 0;
+      font-size: 1.1rem;
+    }
+    
+    .jumbotron {
+      border-radius: 0;
+      padding: 3rem 0 2rem;
+      margin-bottom: 0;
+    }
+    
+    h3.heading {
+      font-size: 1.9rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      padding-bottom: 1.9rem;
+    }
+    
+    .heading-underline {
+      width: 3rem;
+      height: .2rem;
+      background-color: #1ebba3;
+      margin: 0 auto 2rem;
+    }
+    
+    /*---Portfolio---*/
+    .portfolio img {
+      max-width: 100%;
+      transition: transform .5s ease;
+    }
+    
+    .row.no-padding [class*=col-] {
+      padding: 0;
+    }
+    
+    .portfolio img:hover {
+      transform: scale(1.1);
+      cursor: zoom-in;
+    }
+    
+    .portfolio {
+      overflow: hidden;
+    }
+    
+    .card {
+    margin: 2rem;
+    
+    }
+    

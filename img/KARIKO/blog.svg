@@ -14,7 +14,7 @@
    viewBox="0 0 400 280"
    sodipodi:docname="blog.svg"
    inkscape:version="1.0 (1.0+r73+1)"
-   inkscape:export-filename="/home/karina/projects/KARIKO/img/KARIKO/designlinky.png"
+   inkscape:export-filename="/home/karina/projects/KARIKO/img/KARIKO/blog1.png"
    inkscape:export-xdpi="241"
    inkscape:export-ydpi="241">
   <metadata
@@ -116,7 +116,7 @@
   </defs>
   <sodipodi:namedview
      inkscape:guide-bbox="true"
-     showguides="true"
+     showguides="false"
      inkscape:document-rotation="0"
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -129,18 +129,30 @@
      inkscape:window-width="1920"
      inkscape:window-height="1032"
      id="namedview1935"
-     showgrid="true"
+     showgrid="false"
      inkscape:zoom="1.2822715"
      inkscape:cx="295.3269"
      inkscape:cy="62.118215"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g1941">
+     inkscape:current-layer="layer1">
     <inkscape:grid
        type="xygrid"
        id="grid2733" />
   </sodipodi:namedview>
+  <g
+     inkscape:label="pozadí"
+     id="layer1"
+     inkscape:groupmode="layer">
+    <rect
+       y="-3.8433774"
+       x="-3.353343"
+       height="290.68329"
+       width="410.94403"
+       id="rect1251"
+       style="opacity:0.99;fill:#f1f1f1;fill-opacity:1;stroke:none;stroke-width:3.09823;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+  </g>
   <g
      inkscape:groupmode="layer"
      inkscape:label="Image"
@@ -408,7 +420,7 @@
        width="260.50226"
        height="266.91113"
        ry="133.65154"
-       style="opacity:0.99;fill:none;stroke:#6c757d;stroke-width:5;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:0.99;fill:none;stroke:#6c757d;stroke-width:3;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2" />
     <g
        transform="translate(448.91409,130.17855)"
@@ -448,16 +460,15 @@
          style="fill:none;stroke:#6c757d;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="path10-5" />
     </g>
-    <text
-       id="text1191"
-       y="188.09727"
-       x="106.76729"
-       style="font-size:160px;line-height:1.25;font-family:sans-serif;fill:#6c757d;fill-opacity:1;stroke:none;stroke-opacity:1"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:160px;font-family:FreeMono;-inkscape-font-specification:FreeMono;fill:#6c757d;fill-opacity:1;stroke:none;stroke-opacity:1"
-         y="188.09727"
-         x="106.76729"
-         id="tspan1189"
-         sodipodi:role="line">23</tspan></text>
+    <path
+       sodipodi:nodetypes="cssc"
+       id="path1247"
+       d="m 140,110 c 27.68821,-55.412589 63.51072,-6.65087 49.71429,10 L 140,180 c -11.53125,13.91702 41.42857,10 58,0"
+       style="fill:none;stroke:#6c757d;stroke-width:2.73078;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccc"
+       id="path1249"
+       d="m 220,90 c 48,-33.429589 40,33.42959 16,44.57278 48,0 24,78.00238 -24,44.57279"
+       style="fill:none;stroke:#6c757d;stroke-width:2.83251;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
