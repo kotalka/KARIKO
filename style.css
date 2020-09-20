@@ -6,7 +6,7 @@
   color: white;
 }
 
-img {
+#imglogo {
   height: 20rem;
 }
 
@@ -98,22 +98,9 @@ h5 {
   border: none;
 }
 
-.imgprojekty {
-  max-width: 100%;
-  transition: transform .5s ease;
+.sekceprojekty{
+  background-color: white;
 }
-
-
-.row.no-padding [class*=col-] {
-  padding: 0;
-}
-
-.imgprojekty:hover {
-  transform: scale(1.1);
-  cursor: zoom-in;
-}
-
-
 
 /*---Blog---*/
 
