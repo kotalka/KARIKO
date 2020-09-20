@@ -137,6 +137,7 @@ h3.heading {
 
 #zarovka {
   height: 50vh;
+  margin-top: -116px;
   /* margin-top: -110px; */
 }
 
@@ -378,10 +379,11 @@ font-style: italic;
     background: rgba(0 ,0 ,0, .05)!important;
   }
 
-  #zarovka {
+#zarovka {
     height: 50vh;
     margin-top: -116px;
   }
+
 
   p {
     /* font-size: 1rem; */
