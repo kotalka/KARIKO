@@ -117,6 +117,10 @@ h5 {
   background-color: #f1f1f1;
 }
 
+#imgpost1 {
+  width: 25%;
+}
+
 /*---Contact--Footer---*/
 footer {
   background-color: #89CBC9;
@@ -215,6 +219,10 @@ footer svg.svg-inline--fa:hover {
 
   .imgprojekty {
     width: 50%;
+  }
+
+  #imgpost1 {
+    width: 45%;
   }
 
 

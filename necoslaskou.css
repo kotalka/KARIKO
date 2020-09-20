@@ -14,9 +14,8 @@
     }
 }
 
-#srdce {
-    height: 70vw;
-    margin: 12vw;
+.imgprojekty {
+width: 30vw;
 }
 
 
@@ -24,6 +23,9 @@
 @media (max-width: 767px) {
 
     #srdce {
-        height: 50vh;
-
+        width: 100vw;
     }
+
+    .imgprojekty {
+        width: 100vw;
+        }
