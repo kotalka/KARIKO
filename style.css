@@ -90,6 +90,7 @@ h5 {
 
 /*---Projekty---*/
 
+
 #projekty {
   background-color: white;
 }
@@ -98,8 +99,8 @@ h5 {
   border: none;
 }
 
-.sekceprojekty{
-  background-color: white;
+.imgprojekty {
+  width: 100%;
 }
 
 /*---Blog---*/
@@ -218,6 +219,11 @@ footer svg.svg-inline--fa:hover {
   #imglogo {
     height: 150px;
   }
+
+  .imgprojekty {
+    width: 50%;
+  }
+
 
 }
 
