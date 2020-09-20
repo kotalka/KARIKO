@@ -104,23 +104,15 @@ h5 {
 }
 
 /*---Blog---*/
-
-
-.borderbor {
-  background-color: white;
+#blog {
+  height: 180px;
 }
-
-._day {
-  color: #89CBC9;
-  font-size: 2rem;
-}
-
-._day ._date {
-  font-size: 6.625rem;
-}
-
 
 #mujblog {
+  background-color: #f1f1f1;
+}
+
+.backgroundcard {
   background-color: #f1f1f1;
 }
 
