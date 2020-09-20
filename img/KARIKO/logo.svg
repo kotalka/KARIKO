@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="70mm"
-   height="100mm"
-   version="1.1"
-   viewBox="0 0 70 100"
-   id="svg18"
+   inkscape:version="1.0 (1.0+r73+1)"
    sodipodi:docname="logo.svg"
-   inkscape:version="1.0 (1.0+r73+1)">
+   id="svg18"
+   viewBox="0 0 70 100"
+   version="1.1"
+   height="100mm"
+   width="70mm">
   <metadata
      id="metadata24">
     <rdf:RDF>
@@ -29,81 +29,81 @@
   <defs
      id="defs22" />
   <sodipodi:namedview
-     inkscape:document-rotation="0"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1920"
-     inkscape:window-height="1032"
-     id="namedview20"
-     showgrid="true"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:zoom="1.6234774"
-     inkscape:cx="83.433058"
-     inkscape:cy="204.13702"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:current-layer="svg18"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg18">
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="204.13702"
+     inkscape:cx="54.790836"
+     inkscape:zoom="1.6234774"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     showgrid="false"
+     id="namedview20"
+     inkscape:window-height="1032"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0">
     <sodipodi:guide
-       position="-34.387349,71.316713"
+       id="guide856"
        orientation="1,0"
-       id="guide856" />
+       position="-34.387349,71.316713" />
     <inkscape:grid
-       id="grid921"
-       type="xygrid" />
+       type="xygrid"
+       id="grid921" />
   </sodipodi:namedview>
   <rect
-     id="rect2"
-     style="opacity:0.99;fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none"
-     ry="34.099998"
-     height="68.099998"
-     width="68.099998"
-     y="1.85"
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
      x="1.04"
-     inkscape:export-xdpi="241"
-     inkscape:export-ydpi="241" />
+     y="1.85"
+     width="68.099998"
+     height="68.099998"
+     ry="34.099998"
+     style="opacity:0.99;fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none"
+     id="rect2" />
   <path
-     id="path4"
-     style="fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
      d="m 31.6,36.4 c 3.62,-12.5 2.16,-21.2 0,-25.6 -2.16,6.89 -4.07,14 0,25.6 z"
-     inkscape:export-xdpi="241"
-     inkscape:export-ydpi="241" />
-  <path
-     id="path6"
      style="fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path4" />
+  <path
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
      d="m 31.6,62 c 3.62,-12.5 2.16,-21.2 0,-25.6 -2.16,6.89 -4.07,14 0,25.6 z"
-     inkscape:export-xdpi="241"
-     inkscape:export-ydpi="241" />
+     style="fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path6" />
   <path
-     id="path8"
-     style="fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
      d="M 31.6,36.9 C 41.8,32.37 46.7,26.5 48.4,22.6 42.71,24.98 37,27.65 31.6,36.9 Z"
-     inkscape:export-xdpi="241"
-     inkscape:export-ydpi="241" />
-  <path
-     id="path10"
      style="fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path8" />
+  <path
+     inkscape:export-ydpi="241"
+     inkscape:export-xdpi="241"
      d="M 31.6,35.9 C 37.69,45.22 44.3,49.2 48.4,50.2 45.14,44.96 41.61,39.8 31.6,35.9 Z"
-     inkscape:export-xdpi="241"
-     inkscape:export-ydpi="241" />
+     style="fill:none;stroke:#ffffff;stroke-width:0.97895834;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path10" />
   <text
-     id="text14"
-     xml:space="preserve"
-     style="font-size:17.5176px;line-height:1.25;font-family:Dingbats;fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-     y="86.105965"
-     x="3.551918"
-     transform="scale(0.981931,1.0184015)"
+     inkscape:export-ydpi="241"
      inkscape:export-xdpi="241"
-     inkscape:export-ydpi="241"><tspan
-       id="tspan12"
-       style="font-size:17.5176px;font-family:'Liberation Sans';fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     transform="scale(0.981931,1.0184015)"
+     x="4.6297264"
+     y="86.105965"
+     style="font-size:17.5176px;line-height:1.25;font-family:Dingbats;fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;"
+     xml:space="preserve"
+     id="text14"><tspan
+       x="4.6297264"
        y="86.105965"
-       x="3.551918">KARIKO</tspan></text>
+       style="font-size:17.5176px;font-family:'Liberation Sans';fill:#ffffff;stroke:#ffffff;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill;"
+       id="tspan12">KARIKO</tspan></text>
 </svg>
