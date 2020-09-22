@@ -17,6 +17,9 @@ p {
 display: block;
 }
 
+.karikotimeline{
+    margin-left: 350px;
+    }
 
 h3 {
     font-size: 37px;
@@ -34,7 +37,6 @@ h5 {
     font-weight: 400;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
-
 
 }
 
@@ -166,6 +168,10 @@ color:  #89CBC9;;
         box-shadow: 0 0 0 2px #89CBC9;
         left: -28px;
     }
+
+    .karikotimeline{
+        margin-left: 0px;
+        }
   }
   
   @media (max-width: 768px) {
@@ -208,6 +214,9 @@ color:  #89CBC9;;
         box-shadow: 0 0 0 3px #89CBC9;
         left: -28px;
     }
+    .karikotimeline{
+        margin-left: 0px;
+        }
 
   }
   /*——————————————
