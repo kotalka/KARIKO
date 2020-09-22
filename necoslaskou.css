@@ -14,8 +14,8 @@
     }
 }
 
-.imgprojekty {
-width: 30vw;
+#srdce {
+height: 60vh;
 }
 
 
@@ -23,9 +23,5 @@ width: 30vw;
 @media (max-width: 767px) {
 
     #srdce {
-        width: 100vw;
+        width: 90vw;
     }
-
-    .imgprojekty {
-        width: 100vw;
-        }
