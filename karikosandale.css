@@ -172,6 +172,10 @@ color:  #89CBC9;;
     .karikotimeline{
         margin-left: 0px;
         }
+
+        img {
+            height: 220px;
+          }
   }
   
   @media (max-width: 768px) {
@@ -218,16 +222,12 @@ color:  #89CBC9;;
         margin-left: 0px;
         }
 
+        img {
+            height: 220px;
+          }
+
   }
-  /*——————————————
-  others
-  ———————————————*/
-  
-  a.portfolio-link {
-    margin: 0 auto;
-    display: block;
-    text-align: center;
-  }
+
 /*---Media KARIKO sandále---*/
 
 
