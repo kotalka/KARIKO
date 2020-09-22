@@ -123,7 +123,7 @@ color:  #89CBC9;;
   
   .timeline .event:after {
     box-shadow: 0 0 0 8px #89CBC9;
-    left: -27px;
+    left: -28px;
     background:  #f1f1f1;
     border-radius: 50%;
     height: 11px;
