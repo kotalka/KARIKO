@@ -2,6 +2,11 @@
 
 
 /*---Body---*/
+
+img {
+    height: 320px;
+  }
+
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -112,7 +117,7 @@ color:  #89CBC9;;
   
   .timeline .event:after {
     box-shadow: 0 0 0 5px #89CBC9;
-    left: -28px;
+    left: -27px;
     background:  #f1f1f1;
     border-radius: 50%;
     height: 11px;
@@ -158,7 +163,7 @@ color:  #89CBC9;;
     }
 
     .timeline .event:after {
-        box-shadow: 0 0 0 3px #89CBC9;
+        box-shadow: 0 0 0 2px #89CBC9;
         left: -28px;
     }
   }
@@ -196,7 +201,7 @@ color:  #89CBC9;;
       padding-top: 20px;
     }
     .timeline {
-        border-left: 3px solid  #f1f1f1;
+        border-left: 2px solid  #f1f1f1;
       }
 
       .timeline .event:after {
