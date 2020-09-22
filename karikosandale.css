@@ -143,11 +143,27 @@ color:  #89CBC9;;
       min-width: 0;
       font-size: 13px;
     }
+
+    h3 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+
+      h5 {
+        font-size: 16px;
+    
+      }
+
     .timeline h5 {
       font-size: 16px;
     }
     .timeline p {
-      padding-top: 20px;
+      padding-top: 12px;
     }
     section.lab h5.card-title {
       padding: 5px;
