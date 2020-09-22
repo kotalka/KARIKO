@@ -19,6 +19,10 @@ table {
   font-size: 20px;
 }
 
+.tablemargin {
+  margin-left: 40px;
+}
+
 img {
   height: 320px;
 }
@@ -98,6 +102,10 @@ footer svg.svg-inline--fa:hover {
     font-size: 12px;
   }
 
+  .tablemargin {
+    margin-left: -20px;
+  }
+
   img {
     height: 220px;
   }
@@ -114,4 +122,33 @@ footer svg.svg-inline--fa:hover {
   .texright {
     font-weight: 300;
   }
+
+}
+
+@media (max-width: 945px) {
+  table {
+    font-size: 12px;
+  }
+
+  .tablemargin {
+    margin-left: -20px;
+  }
+
+  img {
+    height: 220px;
+  }
+
+  .textbig {
+    font-size: 20px;
+    font-weight: 300px;
+  }
+
+  .textleft {
+    font-weight: 400;
+  }
+
+  .texright {
+    font-weight: 300;
+  }
+
 }
