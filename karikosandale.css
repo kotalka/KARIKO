@@ -129,7 +129,10 @@ section.timeline-outer {
         left: 0.5px;
         top: 20px;
         min-width: 0;
-        font-size: 13px;
+    }
+
+    section.timeline-outer {
+        width: 100vw;
     }
 
     .timeline .event:nth-child(1)::before,
@@ -138,9 +141,6 @@ section.timeline-outer {
         top: 38px;
     }
 
-    .timeline h3 {
-        font-size: 16px;
-    }
 
     .timeline p {
         padding-top: 20px;
