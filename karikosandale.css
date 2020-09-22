@@ -156,7 +156,6 @@ color:  #89CBC9;;
 
       h5 {
         font-size: 16px;
-    
       }
 
     .timeline h5 {
@@ -178,6 +177,21 @@ color:  #89CBC9;;
       min-width: 0;
       font-size: 13px;
     }
+
+    h3 {
+        font-size: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+
+      h5 {
+        font-size: 16px;
+      }
+      
     .timeline .event:nth-child(1)::before,
     .timeline .event:nth-child(3)::before,
     .timeline .event:nth-child(5)::before {
