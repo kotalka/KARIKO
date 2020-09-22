@@ -5,14 +5,22 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+h3 {
+  font-size: 37px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
 table {
   font-size: 20px;
 }
 
 img {
   height: 320px;
-  margin-top: 50px;
-  margin-bottom: 50px;
 }
 
 
