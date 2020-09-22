@@ -122,7 +122,7 @@ color:  #89CBC9;;
   }
   
   .timeline .event:after {
-    box-shadow: 0 0 0 8px #89CBC9;
+    box-shadow: 0 0 0 5px #89CBC9;
     left: -28px;
     background:  #f1f1f1;
     border-radius: 50%;
@@ -141,7 +141,6 @@ color:  #89CBC9;;
       left: 0.5px;
       top: 20px;
       min-width: 0;
-      font-size: 13px;
     }
 
     h3 {
@@ -168,6 +167,11 @@ color:  #89CBC9;;
       padding: 5px;
       font-size: 16px
     }
+
+    .timeline .event:after {
+        box-shadow: 0 0 0 3px #89CBC9;
+        left: -28px;
+    }
   }
   
   @media (max-width: 768px) {
@@ -175,7 +179,6 @@ color:  #89CBC9;;
       left: 0.5px;
       top: 20px;
       min-width: 0;
-      font-size: 13px;
     }
 
     h3 {
@@ -203,6 +206,15 @@ color:  #89CBC9;;
     .timeline p {
       padding-top: 20px;
     }
+    .timeline {
+        border-left: 3px solid  #f1f1f1;
+      }
+
+      .timeline .event:after {
+        box-shadow: 0 0 0 3px #89CBC9;
+        left: -28px;
+    }
+
   }
   /*——————————————
   others
