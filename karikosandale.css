@@ -127,6 +127,45 @@ color:  #89CBC9;;
     content: "";
     top: 5px;
   }
+
+  /*---Contact--Footer---*/
+footer {
+    background-color: white;
+  
+  }
+  
+  footer img {
+    height: 2rem;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer svg.svg-inline--fa {
+    font-size: 1.8rem;
+  
+  }
+  
+  footer svg.svg-inline--fa:hover {
+    color: #89CBC9;
+  }
+  
+  .link {
+    color: #7A656A;
+  }
+  
+  .list-inline .list-inline-item li {
+    padding-right: .7rem;
+  }
+  
+  #domufooter:hover {
+    color: #89CBC9;
+  }
+  
+  .mezera {
+    margin-top: 0rem;
+  }
   /**/
   /*——————————————
   Responsive Stuff
