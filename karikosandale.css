@@ -5,7 +5,6 @@
 body {
     overflow-x: hidden;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: black;
     font-size: 22px;
 }
 
@@ -41,144 +40,153 @@ h5 {
     font-weight: 400;
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: none;
-    color: black;
+
 
 }
 
 
 /*---KARIKO sandále---*/
+/*——————————————
+Global
+———————————————*/
 
 
-section.timeline-outer {
-    width: 100vw;
-}
+/*——————————————
+TimeLine CSS
+———————————————*/
+/* Base */
 
-/* Timeline */
+#content {
+    margin-top: 50px;
+    text-align: center;
+  }
 
-.timeline {
-    border-left: 2px solid #f1f1f1;
+h5 {
+color:  #89CBC9;;
+  }
+
+  section.timeline-outer {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  h1.header {
+    font-size: 50px;
+    line-height: 70px;
+  }
+  /* Timeline */
+  
+
+
+  .timeline {
+    border-left: 5px solid  #f1f1f1;
+    border-bottom-right-radius: 3px;
+    margin: 50px auto;
+    letter-spacing: 0.5px;
+    position: relative;
     line-height: 1.4em;
     padding: 20px;
     list-style: none;
     text-align: left;
-    margin-left: 35%;
-}
-
-.timeline .event {
+  }
+  
+  
+  .timeline .event {
+    border-bottom: 0px solid #f1f1f1;
     padding-bottom: 15px;
     margin-bottom: 20px;
     position: relative;
-}
-
-.timeline .event:last-of-type {
+  }
+  
+  .timeline .event:last-of-type {
     padding-bottom: 0;
     margin-bottom: 0;
     border: none;
-}
-
-.timeline .event:before,
-.timeline .event:after {
+  }
+  
+  .timeline .event:before,
+  .timeline .event:after {
     position: absolute;
     display: block;
     top: 0;
-}
-
-.timeline .event:before {
+  }
+  
+  .timeline .event:before {
+    left: -177.5px;
     content: attr(data-date);
     text-align: right;
-    min-width: 162px;
-
-}
-
-.timeline .event:after {
-    box-shadow: 0 0 0 8px #f1f1f1;
-    left: -26px;
-    background: #f1f1f1;
+    /*  font-weight: 100;*/
+    
+    font-size: 16px;
+    min-width: 120px;
+  }
+  
+  .timeline .event:after {
+    box-shadow: 0 0 0 8px #89CBC9;
+    left: -30px;
+    background:  #f1f1f1;
     border-radius: 50%;
     height: 11px;
     width: 11px;
     content: "";
     top: 5px;
-}
-
-/*---Media KARIKO sandále---*/
-@media (max-width: 945px) {
+  }
+  /**/
+  /*——————————————
+  Responsive Stuff
+  ———————————————*/
+  
+  @media (max-width: 945px) {
     .timeline .event::before {
-        left: 0.5px;
-        top: 20px;
-        min-width: 0;
-        font-size: 13px;
+      left: 0.5px;
+      top: 20px;
+      min-width: 0;
+      font-size: 13px;
     }
-
-    .timeline h3 {
-        font-size: 16px;
+    .timeline h5 {
+      font-size: 16px;
     }
-
     .timeline p {
-        padding-top: 20px;
+      padding-top: 20px;
     }
-
-    section.lab h3.card-title {
-        padding: 5px;
-        font-size: 16px
+    section.lab h5.card-title {
+      padding: 5px;
+      font-size: 16px
     }
-}
-
-@media (max-width: 768px) {
+  }
+  
+  @media (max-width: 768px) {
     .timeline .event::before {
-        left: 0.5px;
-        top: 20px;
-        min-width: 0;
+      left: 0.5px;
+      top: 20px;
+      min-width: 0;
+      font-size: 13px;
     }
-
-    section.timeline-outer {
-        width: 100vw;
-    }
-
     .timeline .event:nth-child(1)::before,
     .timeline .event:nth-child(3)::before,
     .timeline .event:nth-child(5)::before {
-        top: 38px;
+      top: 38px;
     }
-
-
+    .timeline h5 {
+      font-size: 16px;
+    }
     .timeline p {
-        padding-top: 20px;
+      padding-top: 20px;
     }
-}
-
-/*---Media originál---*/
-@media (max-width: 767px) {
-
-
-    p {
-        font-size: 12px;
-    }
-
-    h1 {
-        font-size: 20px;
-        margin-top: 50px;
-        margin-bottom: 30px;
-    }
-
-    h3 {
-        font-size: 20px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-    }
-
-    h4 {
-        font-size: 20px;
-
-    }
-
-    h5 {
-        font-size: 16px;
-
-    }
+  }
+  /*——————————————
+  others
+  ———————————————*/
+  
+  a.portfolio-link {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+/*---Media KARIKO sandále---*/
 
 
-}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
