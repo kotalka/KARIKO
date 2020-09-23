@@ -14,14 +14,28 @@
     }
 }
 
-#srdce {
-height: 50vh;
+#heart {
+    height: 60vh;
+    margin-top: 20px;
 }
+
+/* 
+.marginheart{
+    margin: 300px 300px 300px 300px;
+}
+ */
+
+.bordersvg {
+    border: solid 80px;
+    border-color: #f1f1f1;
+    height: 100vh;
+    
+    }
 
 
 
 @media (max-width: 767px) {
 
-    #srdce {
-        width: 70vw;
-    }
+    /* #heart {
+        width: 55vw;
+    } */
