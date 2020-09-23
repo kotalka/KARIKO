@@ -168,7 +168,9 @@ footer svg.svg-inline--fa:hover {
   margin-top: 1rem;
 }
 
-
+.imgprop{
+  width: 450px;
+}
 /*---Media Queries---*/
 
 @media (max-width: 767px) {

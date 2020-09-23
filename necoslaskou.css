@@ -19,36 +19,33 @@
     margin-top: 100px;
 }
 
-
 .bordersvg {
     border: solid 100px;
     border-color: #f1f1f1;
     height: 100vh;
-    
-    }
+}
 
-
-
+/*---Media Queries---*/
 @media (max-width: 767px) {
 
     .bordersvg {
-       width: 100vw;   
-        }
-
-        #heart {
-            width: 60vw;
-            margin-top: 250px;
-        }
+        width: 100vw;
     }
 
-    @media (max-width: 945px) {
+    #heart {
+        width: 60vw;
+        margin-top: 250px;
+    }
+}
 
-        .bordersvg {
-           width: 100vw;   
-            }
-    
-            #heart {
-                width: 60vw;
-                margin-top: 250px;
-            }
-        }
+@media (max-width: 945px) {
+
+    .bordersvg {
+        width: 100vw;
+    }
+
+    #heart {
+        width: 60vw;
+        margin-top: 250px;
+    }
+}
