@@ -19,11 +19,6 @@
     margin-top: 20px;
 }
 
-/* 
-.marginheart{
-    margin: 300px 300px 300px 300px;
-}
- */
 
 .bordersvg {
     border: solid 80px;
@@ -36,6 +31,24 @@
 
 @media (max-width: 767px) {
 
-    /* #heart {
-        width: 55vw;
-    } */
+    .bordersvg {
+       width: 100vw;   
+        }
+
+        #heart {
+            width: 60vw;
+            margin-top: 20px;
+        }
+    }
+
+    @media (max-width: 945px) {
+
+        .bordersvg {
+           width: 100vw;   
+            }
+    
+            #heart {
+                width: 60vw;
+                margin-top: 20px;
+            }
+        }
