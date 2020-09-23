@@ -19,33 +19,40 @@
     margin-top: 100px;
 }
 
+
 .bordersvg {
     border: solid 100px;
     border-color: #f1f1f1;
     height: 100vh;
+
 }
 
-/*---Media Queries---*/
+
+
 @media (max-width: 767px) {
 
-    .bordersvg {
-        width: 100vw;
+.bordersvg {
+    border: solid 50px;
+    border-color: #f1f1f1;
+    width: 100vw;
     }
 
-    #heart {
-        width: 60vw;
-        margin-top: 250px;
+#heart {
+    width: 60vw;
+    margin-top: 150px;
     }
 }
 
 @media (max-width: 945px) {
 
     .bordersvg {
-        width: 100vw;
+    border: solid 50px;
+    border-color: #f1f1f1;
+    width: 100vw;
     }
 
     #heart {
         width: 60vw;
-        margin-top: 250px;
+        margin-top: 150px;
     }
 }
