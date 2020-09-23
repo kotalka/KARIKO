@@ -15,7 +15,7 @@
 }
 
 #srdce {
-height: 60vh;
+height: 50vh;
 }
 
 
@@ -23,5 +23,5 @@ height: 60vh;
 @media (max-width: 767px) {
 
     #srdce {
-        width: 90vw;
+        width: 70vw;
     }
