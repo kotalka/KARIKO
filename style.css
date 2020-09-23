@@ -215,6 +215,10 @@ footer svg.svg-inline--fa:hover {
 
   }
 
+  .vykreslovani{
+    font-size: 10px;
+  }
+
   #imglogo {
     height: 150px;
   }
@@ -235,6 +239,10 @@ footer svg.svg-inline--fa:hover {
 @media (max-width: 767px) {
   .imgprop{
     width: 90vw;
+  }
+
+  .vykreslovani{
+    font-size: 10px;
   }
 
 

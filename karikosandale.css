@@ -187,9 +187,13 @@ footer {
       p {
         font-size: 12px;
       }
-
+     
       h5 {
         font-size: 16px;
+      }
+
+      .vykreslovani{
+        font-size: 12px;
       }
 
     .timeline h5 {
@@ -236,6 +240,10 @@ footer {
 
       h5 {
         font-size: 16px;
+      }
+
+      .vykreslovani{
+        font-size: 12px;
       }
 
     .timeline .event:nth-child(1)::before,
