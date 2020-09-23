@@ -16,7 +16,7 @@
 
 #heart {
     height: 60vh;
-    margin-top: 20px;
+    margin-top: 150px;
 }
 
 
@@ -49,6 +49,6 @@
     
             #heart {
                 width: 60vw;
-                margin-top: 20px;
+                margin-top: 250px;
             }
         }
