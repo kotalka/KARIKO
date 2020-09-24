@@ -105,7 +105,7 @@ h5 {
 }
 
 .text-decoration-none:hover {
-  text-decoration:white;
+  text-decoration: white;
 }
 
 /*---Blog---*/
@@ -164,7 +164,7 @@ footer svg.svg-inline--fa:hover {
 }
 
 #itemwebdesigndomu {
-font-size: 1.4rem;
+  font-size: 1.4rem;
 }
 
 .itemwebdesign:hover {
@@ -190,9 +190,10 @@ font-size: 1.4rem;
   margin-top: 1rem;
 }
 
-.imgprop{
+.imgprop {
   width: 450px;
 }
+
 /*---Media Queries---*/
 
 @media (max-width: 767px) {
@@ -237,7 +238,7 @@ font-size: 1.4rem;
 
   }
 
-  .vykreslovani{
+  .vykreslovani {
     font-size: 10px;
   }
 
@@ -253,33 +254,35 @@ font-size: 1.4rem;
     width: 45%;
   }
 
-  .imgprop{
+  .imgprop {
     width: 90vw;
   }
 
   #itemwebdesigndomu {
     font-size: 12px;
-    }
+  }
 
-    .text-decoration-none:hover {
-      text-decoration:white;
-    }
+  .text-decoration-none:hover {
+    text-decoration: white;
+  }
 }
+
 @media (max-width: 767px) {
-  .imgprop{
+  .imgprop {
     width: 90vw;
   }
 
-  .vykreslovani{
+  .vykreslovani {
     font-size: 10px;
   }
 
   #itemwebdesigndomu {
     font-size: 12px;
-    }
-    .text-decoration-none:hover {
-      text-decoration:white;
-    }
+  }
+
+  .text-decoration-none:hover {
+    text-decoration: white;
+  }
 
 }
 
