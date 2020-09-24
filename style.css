@@ -104,6 +104,10 @@ h5 {
   width: 100%;
 }
 
+.text-decoration-none:hover {
+  text-decoration:white;
+}
+
 /*---Blog---*/
 #blog {
   height: 180px;
