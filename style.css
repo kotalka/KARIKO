@@ -261,6 +261,9 @@ font-size: 1.4rem;
     font-size: 12px;
     }
 
+    .text-decoration-none:hover {
+      text-decoration:white;
+    }
 }
 @media (max-width: 767px) {
   .imgprop{
@@ -274,7 +277,9 @@ font-size: 1.4rem;
   #itemwebdesigndomu {
     font-size: 12px;
     }
-
+    .text-decoration-none:hover {
+      text-decoration:white;
+    }
 
 }
 
