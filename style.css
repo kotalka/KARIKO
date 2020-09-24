@@ -161,7 +161,6 @@ footer svg.svg-inline--fa:hover {
 
 #itemwebdesigndomu {
 font-size: 1.4rem;
- 
 }
 
 .itemwebdesign:hover {
@@ -254,6 +253,10 @@ font-size: 1.4rem;
     width: 90vw;
   }
 
+  #itemwebdesigndomu {
+    font-size: 12px;
+    }
+
 }
 @media (max-width: 767px) {
   .imgprop{
@@ -263,6 +266,10 @@ font-size: 1.4rem;
   .vykreslovani{
     font-size: 10px;
   }
+
+  #itemwebdesigndomu {
+    font-size: 12px;
+    }
 
 
 }
