@@ -58,6 +58,7 @@ h5 {
   
   .link {
     color: #7A656A;
+    /* background-color:rgb(196, 189, 13); */
   }
 
   
@@ -93,6 +94,9 @@ h5 {
 }
 
 
+#right {
+    border-left: 1px solid #f1f1f1;
+  }
 
 
   table {
@@ -102,7 +106,7 @@ h5 {
 
   th {
     /* background-color: #f1f1f1; */
-    color: black;
+
   }
 
   .th1 {
