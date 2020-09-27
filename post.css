@@ -126,13 +126,18 @@ h5 {
         margin-bottom: 30px;
       }
 
-      p {
+      .title p {
         font-size: 12px;
       }
 
      
       h5 {
         font-size: 16px;
+      }
+
+      h4 {
+        font-size: 20px;
+    
       }
 
   }
@@ -148,8 +153,13 @@ h5 {
         margin-bottom: 30px;
       }
 
-      p {
+      .title p {
         font-size: 12px;
+      }
+      
+      h4 {
+        font-size: 20px;
+    
       }
 
       h5 {
