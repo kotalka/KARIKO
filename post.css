@@ -126,7 +126,11 @@ h5 {
         margin-bottom: 30px;
       }
 
-      .title p {
+      p {
+        font-size: 12px;
+      }
+
+      .titlepost{
         font-size: 12px;
       }
 
@@ -153,10 +157,14 @@ h5 {
         margin-bottom: 30px;
       }
 
-      .title p {
+      p {
         font-size: 12px;
       }
-      
+
+      .titlepost {
+        font-size: 12px;
+      }
+
       h4 {
         font-size: 20px;
     
