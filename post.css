@@ -108,11 +108,12 @@ h5 {
 
   th {
     /* background-color: #f1f1f1; */
+    color: rgb(51, 51, 51);
 
   }
 
   .th1 {
-    /* background-color: #f1f1f1; */
+    color: rgb(51, 51, 51);
     /* color:rgb(0, 114, 172); */
 
   }
