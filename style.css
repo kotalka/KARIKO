@@ -255,7 +255,7 @@ footer svg.svg-inline--fa:hover {
   }
 
   #imgpost1 {
-    width: 45%;
+    width: 40%;
   }
 
   .imgprop {
@@ -286,6 +286,10 @@ footer svg.svg-inline--fa:hover {
 
   .text-decoration-none:hover {
     text-decoration: white;
+  }
+
+  #imgpost1 {
+    width: 40%;
   }
 
 }
