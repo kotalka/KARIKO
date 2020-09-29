@@ -158,6 +158,9 @@ h5 {
         font-size: 20px;
     
       }
+      #domuf {
+        font-size: 5px;
+      }
 
   }
   
@@ -188,7 +191,7 @@ h5 {
       h5 {
         font-size: 16px;
       }
-      #domufooter {
+      #domuf {
         font-size: 12px;
       }
 
