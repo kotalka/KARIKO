@@ -89,7 +89,6 @@ footer svg.svg-inline--fa:hover {
 
 #domufooter:hover {
   color: #89CBC9;
-  font-size: 12px;
 }
 
 
@@ -131,6 +130,10 @@ footer svg.svg-inline--fa:hover {
     margin-bottom: 30px;
   }
 
+  #domufooter:hover {
+    font-size: 12px;
+  }
+
 }
 
 @media (max-width: 945px) {
@@ -163,6 +166,10 @@ footer svg.svg-inline--fa:hover {
     font-size: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+  }
+
+  #domufooter:hover {
+    font-size: 12px;
   }
 
 }
