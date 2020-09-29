@@ -89,7 +89,9 @@ footer svg.svg-inline--fa:hover {
 
 #domufooter:hover {
   color: #89CBC9;
+  font-size: 12px;
 }
+
 
 .mezera {
   margin-top: 1rem;
