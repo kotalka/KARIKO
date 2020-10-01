@@ -119,9 +119,34 @@ h5 {
     color: rgb(26, 26, 26);
     /* color:rgb(0, 114, 172); */
   
+ /*——————————————
+  Comment
+   ———————————————*/
 
-  }
- 
+.comment-post {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.comment-style {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #c0f7f6;
+  padding: 10px;
+}
+
+textarea {
+  width: 90%;
+  display: block;
+  margin-left: 20px;
+}
+
+#submit-btn {
+  margin-top: 20px;
+   margin-left: 20px;
+}
+  
   /*——————————————
   Responsive Stuff
   ———————————————*/
