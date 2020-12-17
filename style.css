@@ -86,6 +86,16 @@ h1 {
   font-weight: 400;
 }
 
+#vesele-vanoce {
+  font-size: 50px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
 h3 {
   font-size: 37px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -254,6 +264,12 @@ footer svg.svg-inline--fa:hover {
     font-size: 20px;
     margin-top: 50px;
     margin-bottom: 30px;
+  }
+
+  #vesele-vanoce{
+    font-size: 20px;
+    margin-bottom: 0px;
+  margin-top: 0px;
   }
 
   h3 {
