@@ -1,6 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
+#vanoce {
+  background:url("img/KARIKO/unnamed.gif"); 
+  background-color: #89CBC9;
+}
+
+.path {
+  stroke-dasharray: 1800;
+  stroke-dashoffset: 1800;
+  animation: dash 12s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1800;
+  }
+  to {
+    stroke-dashoffset: 000;
+  }
+}
+
 /*---Header---*/
 #domu {
   background-color: #89CBC9;
@@ -17,11 +37,16 @@
 }
 
 #zarovka {
-  height: 40vh;
+  height: 30vh;
   margin-top: -105px;
 }
 
-.path {
+#stromek {
+  height: 40vh;
+  /* margin-top: -50px; */
+}
+
+/* .path {
   stroke-dasharray: 600;
   stroke-dashoffset: 1;
   animation: dash 12s linear alternate infinite;
@@ -36,7 +61,7 @@
   to {
     stroke-dashoffset: 000;
   }
-}
+} */
 
 
 /*---Body---*/
@@ -213,6 +238,11 @@ footer svg.svg-inline--fa:hover {
   #zarovka {
     height: 50vh;
     margin-top: -116px;
+  }
+
+  #stromek {
+    height: 40vh;
+    /* margin-top: -50px; */
   }
 
 
