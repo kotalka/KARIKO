@@ -7,14 +7,14 @@
 }
 
 .path {
-  stroke-dasharray: 1800;
-  stroke-dashoffset: 1800;
+  stroke-dasharray: 700;
+  stroke-dashoffset: 700;
   animation: dash 12s linear alternate infinite;
 }
 
 @keyframes dash {
   from {
-    stroke-dashoffset: 1800;
+    stroke-dashoffset: 700;
   }
   to {
     stroke-dashoffset: 000;
