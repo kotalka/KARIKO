@@ -32,8 +32,8 @@
 }
 
 #zarovka {
-  height: 30vh;
-  margin-top: -105px;
+  height: 45vh;
+  margin-top: -115px;
 }
 
 /*---Body---*/
@@ -174,7 +174,7 @@ footer svg.svg-inline--fa:hover {
 
   #zarovka {
     height: 50vh;
-    margin-top: -116px;
+    margin-top: -140px;
   }
 
   p {
