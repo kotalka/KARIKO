@@ -41,7 +41,7 @@ body {
   overflow-x: hidden;
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: black;
-  font-size: 22px;
+  font-size: 23px;
 }
 
 .offset:before {
@@ -119,9 +119,6 @@ h5 {
   font-family: 'Delius', cursive;
 }
 
-.h5post1{
-  font-family: 'Delius', cursive;
-}
 
 /*---Contact--Footer---*/
 footer {
@@ -207,41 +204,29 @@ footer svg.svg-inline--fa:hover {
     margin-top: -116px;
   }
 
-  #stromek {
-    height: 40vh;
-    /* margin-top: -50px; */
-  }
-
-
   p {
-    font-size: 12px;
+    font-size: 17px;
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 23px;
     margin-top: 50px;
     margin-bottom: 30px;
   }
 
-  #vesele-vanoce{
-    font-size: 20px;
-    margin-bottom: 0px;
-  margin-top: 0px;
-  }
-
   h3 {
-    font-size: 20px;
+    font-size: 23px;
     margin-top: 30px;
     margin-bottom: 30px;
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 23px;
 
   }
 
   h5 {
-    font-size: 16px;
+    font-size: 19px;
 
   }
 
