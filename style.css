@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
 
-#vanoce {
-  background:url("img/KARIKO/unnamed.gif"); 
-  background-color: #89CBC9;
-}
-
 .path {
   stroke-dasharray: 700;
   stroke-dashoffset: 700;
@@ -32,7 +27,7 @@
 }
 
 /*---Myšlenka---*/
-#myslenka {
+.bg-color {
   background-color: #f1f1f1;
 }
 
@@ -40,29 +35,6 @@
   height: 30vh;
   margin-top: -105px;
 }
-
-#stromek {
-  height: 40vh;
-  /* margin-top: -50px; */
-}
-
-/* .path {
-  stroke-dasharray: 600;
-  stroke-dashoffset: 1;
-  animation: dash 12s linear alternate infinite;
-}
-
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 600;
-  }
-
-  to {
-    stroke-dashoffset: 000;
-  }
-} */
-
 
 /*---Body---*/
 body {
@@ -124,14 +96,7 @@ h5 {
 
 }
 
-
 /*---Projekty---*/
-
-
-#projekty {
-  background-color: white;
-}
-
 .border-light {
   border: none;
 }
@@ -147,14 +112,6 @@ h5 {
 /*---Blog---*/
 #blog {
   height: 180px;
-}
-
-#mujblog {
-  background-color: #f1f1f1;
-}
-
-.backgroundcard {
-  background-color: #f1f1f1;
 }
 
 #imgpost {
