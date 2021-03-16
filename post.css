@@ -74,8 +74,12 @@ footer svg.svg-inline--fa:hover {
   font-size: 22px;
   text-transform: uppercase;
   font-family: 'Delius', cursive;
+  color: #89CBC9;
 }
 
+.imgpost {
+  max-width: 60px;
+}
 
 .imgprojekty {
   width: 100%;
