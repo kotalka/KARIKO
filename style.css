@@ -44,28 +44,12 @@ body {
   font-size: 23px;
 }
 
-.offset:before {
-  height: 3.9rem;
-  margin-top: -3.8rem;
-  content: "";
-}
-
 h1 {
   font-size: 37px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   font-style: italic;
   font-weight: 400;
-}
-
-#vesele-vanoce {
-  font-size: 50px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: none;
-  font-style: italic;
-  font-weight: 400;
-  margin-bottom: 0px;
-  margin-top: 0px;
 }
 
 h3 {
@@ -93,7 +77,6 @@ h5 {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
   color: black;
-
 }
 
 /*---Projekty---*/
@@ -119,7 +102,6 @@ h5 {
   font-family: 'Delius', cursive;
 }
 
-
 /*---Contact--Footer---*/
 footer {
   background-color: #89CBC9;
@@ -140,7 +122,6 @@ footer svg.svg-inline--fa {
 footer svg.svg-inline--fa:hover {
   color: #7A656A;
 }
-
 
 .link {
   color: white;
@@ -191,14 +172,6 @@ footer svg.svg-inline--fa:hover {
 
 @media (max-width: 767px) {
 
-  .navbar {
-    text-transform: uppercase;
-    font-weight: 400;
-    font-size: 12px;
-    letter-spacing: .1rem;
-    background: rgba(0, 0, 0, .05) !important;
-  }
-
   #zarovka {
     height: 50vh;
     margin-top: -116px;
@@ -227,7 +200,6 @@ footer svg.svg-inline--fa:hover {
 
   h5 {
     font-size: 19px;
-
   }
 
   .vykreslovani {
