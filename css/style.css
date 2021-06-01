@@ -569,7 +569,7 @@ aside {
 
 @media (min-width: 576px) {
   aside {
-    height: 80vh;
+    height: 85vh;
     position: fixed;
     right: 0;
     top: 0;
