@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="utf-8">
+  <meta property="og:image" content="http://www.kariko.cz/img/KARIKOlogo.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="title" content="KARIKO WEBY - minimalistické, jednoduché, přehledné webové stránky">
+  <meta name="description"
+    content="Minimalistické a strukturované webové stránky na míru, snadná orientace na stránkách">
+  <meta name="keywords" content="webové stránky,grafický design,minimalismus,minimalistické,strukturované,jednoduché">
+  <meta name="author" content="Karina Kotalová">
+  <title>KARIKO minimalistické webové stránky, jednoduché, strukturované webové stránky</title>
+  <link rel="shortcut icon" href="img/KARIKOlogolista.ico" alt="KARIKO logo">
+  <!-- <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet'type='text/css'> -->
+  <!-- KARIKO WEB -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800|Playfair+Display:,300, 400, 700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+    <a href="#" class="offcanvas-toggle js-offcanvas-toggle">Menu</a>
+    <div class="offcanvas_menu" id="offcanvas_menu">
+      <ul class="mb-5">
+        <li><a href="minimalisticke_weby.html">O Webu</a></li>
+        <li><a href="nabidka_weby.html">Nabídka</a></li>
+        <li><a href="portfolio_weby.html">Portfolio</a></li>
+        <li><a href="ceny_weby.html">Ceny</a></li>
+        <li><a href="kontakt_weby.html">Kontakt</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="https://www.linkedin.com/in/karina-kotalov%C3%A1-2a7726180/" class="fa fa-linkedin"></a></li>
+        <li><a href="https://www.facebook.com/media/set/?set=a.3151679051518870&type=3" class="fa fa-facebook"></a></li>
+        <li><a href="https://www.instagram.com/kariko_design/" class="fa fa-instagram"></a></li>
+      </ul>
+    </div>
+
+    <aside style="background-image: url(img/gif.gif);"></aside>
+    <main>
+      <img class="mr-3 ml-3" style="max-width: 150px;" src="img/KARIKOlogo.png" alt="">
+
+
+      <div>
+        <p style="font-size: 50px; color: #8ACAC9; margin-bottom: 0px;">KARIKO</p>
+        <p style="font-size: 30px; margin-top: 0px;" class="lead mb-3">Minimalistický Web Design &amp; Vývoj</p>
+
+
+        <p>Minimalistické, strukturované, intuitivní weby. Hlavní prioritou je kvalitní obsah, který
+          je relevantní pro SEO optimalizace.
+          Díky modernímu využití přístupu na nejrůznější uživatelské platformy, není web závislý na web hostingu, takže
+          vedle ekologické úspory šetří i provozní náklady.
+          Cílem je jasně definovat záměr klienta, a ten srozumitelně promítnout do webové prezentace.
+          Weby neobsahují žádné nadbytečné prvky, které by jakkoli mohly
+          odvrátit pozornost od důležitých informací a jsou velmi intuitivní při orientaci ve struktuře webu.
+        </p>
+
+        <p>
+          <a href="https://www.linkedin.com/in/karina-kotalov%C3%A1-2a7726180/" class="mr-2 mb-2">LinkedIn</a>
+          <a href="https://www.facebook.com/media/set/?set=a.3151679051518870&type=3" class="mr-2 mb-2">Facebook</a>
+          <a href="https://www.instagram.com/kariko_design/" class="mr-2 mb-2">Instagram</a>
+          <a href="https://www.instagram.com/kariko_design/">| KARIKO Design</a>
+        </p>
+
+       
+    </main>
+  </div>
+
+  <!-- loader -->
+  <!-- <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#f4b214"/></svg></div> -->
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
