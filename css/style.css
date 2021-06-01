@@ -3,6 +3,10 @@
   margin-top: 100px;
 }
 
+body {
+  overflow: auto !important;
+}
+
 #imglogo {
   height: 15rem;
 }
@@ -79,22 +83,19 @@ table {
   font-size: 20px;
 }
 
-.tablemargin {
-  margin-left: 40px;
-}
 
 .img-medailonek {
-  height: 320px;
+  max-height: 320px;
 }
 
 .left {
   text-align: right;
-  padding-right: 20px;
+  padding-right: 0px;
 }
 
 .right {
   text-align: left;
-  padding-left: 20px;
+  padding-left: 0px;
 }
 
 #right {
