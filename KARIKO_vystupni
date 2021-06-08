@@ -36,7 +36,7 @@
         </p>
       </div>
 
-      <!-- <div class="mt-5-a text-justify">
+      <div class="mt-5-a text-justify">
         <h2 class="mb-4 text-domu">Hlavní Pilíře</h2>
         <ul class="resume-list">
           <li>
@@ -60,7 +60,19 @@
                 </p>
           </li>
         </ul>
-    </div>  -->
+    </div> 
+      
+      <div class="mt-5-a">
+        <h2 class="mb-4 text-domu">Ceny</h2>
+        <ul class="resume-list">
+          <li>
+            <h4 class="mb-3">Obecné informace o cenotvorbě</h4>
+              <p class="text-justify">Je zřejmé, že cena výstupní analýzy může hrát při rozhodování důležitou roli a vaše finální 
+                rozhodnutí o využití služeb mohou být různá. Proto je možné využití bezplatné hodinové konzultace 
+                o veškerých nabízených možnostech a cenách, které se různí s ohledem na vaše požadavky.</p>
+          </li>
+        </ul>
+      </div>
 
       <div class="mt-5-a">
         <h2 class="mb-4 text-domu">Kontaktujte Mne</h2>
