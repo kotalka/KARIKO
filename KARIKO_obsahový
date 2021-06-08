@@ -29,8 +29,10 @@
       <a href="index.html" class="home-button"><img id="kariko-vlevo" style="max-width: 70px;" src="img/KARIKOlogo.png" alt=""></a>
       <div>
         <h1 class="text-domu mb-pod-logem" style="color: #8ACAC9;">Obsahový Marketing</h1>
-        <p class="text-justify">Úspěšné prezentování webu se nestane náhodou, vyžaduje plánování. 
-            Základem je kvalitní obsah, ale také první 
+        <p class="text-justify">Základem každé webové stránky, 
+          která chce v dnešní době obstát, je kvalitní obsah.
+          Úspěšné prezentování webu se nestane náhodou, vyžaduje plánování. 
+            Máte-li kvalitní obsah, pak je pro uživatele důležitý první 
             dojem z vašeho webu, tedy jeho vizuální stránka a rozložení. Vytvořením webové stránky 
             od A do Z se váš web stane obsahově i vizuálně konzistentní a splní tak požadavky úspěšného 
             webu.
@@ -41,15 +43,27 @@
         <h2 class="mb-4 text-domu">Hlavní Pilíře</h2>
         <ul class="resume-list">
           <li>
-            <h3>Určení publika, které oslovujete</h3>
+            <h3>1. Určení publika, které oslovujete</h3>
             <p class="text-justify">Aby vaše cílení nebylo náhodné, je nutné nastavit, pro koho bude obsah určen. 
               Tato zásada vám před samotným vytvořením obsahu pomůže zamyslet se nad tím, na co vaše publikum
             pravděpodobně cílí.</p>
           </li>
           <li>
-            <h3>Nabídnutí zákazníkům něco víc než konkurence</h3>
+            <h3>2. Nabídnutí zákazníkům něco víc než konkurence</h3>
             <p class="text-justify">Váš hlas musí být silnější než hlas těch, co působí ve stejném prostoru jako vy. 
               Vždy je dobré zamyslet se nad tím, čím se od konkurence výrazně odlišíte.</p>
+          </li>
+          <li>
+            <h3>3. Určení cílů, sledování a měření jejich efektivnosti</h3>
+            <p class="text-justify">Jak hledat a nacházet tzv. „klíčová slova"
+              dohledatelného obsahu je nedílnou součástí dosažení úspěchu.
+              Pomůže vám v rozhodování o tom, do jakého typu obsahu se vyplatí investovat.
+              Poznejte základní strategie propagace svých služeb.</p>
+          </li>
+          <li>
+            <h3>4. Vytváření obsahu, který osloví vaše publikum</h3>
+            <p class="text-justify">Proč vytvářet obsah, o který není zájem. Analýzou a měřením dosažených výsledků 
+              poznáte, zda produkujete obsah, který stojí za to.</p>
           </li>
         </ul>
     </div> 
@@ -61,7 +75,7 @@
         <p>Obsahové | Grafické zpracování
         </p>
         <li>
-          <a href="img/Brožura 29.7x21  сm.pdf" target="_blank">
+          <a href="img/Brožura 29.7x21  сm.pdf">
             <img class="img-fluid" src="img/zamecka_brozura.png" alt="">
             <div class="text">
             </div>
@@ -71,7 +85,7 @@
         <p>Obsahové | Grafické zpracování
         </p>
         <li>
-          <a href="https://kotalka.github.io/optikapodpradedem/" target="_blank">
+          <a href="https://kotalka.github.io/optikapodpradedem/">
             <img class="img-fluid" src="img/optika.png" alt="">
             <div class="text">
             </div>
@@ -81,7 +95,7 @@
         <p>Obsahové | Grafické zpracování
         </p>
         <li>
-          <a href="https://kotalka.github.io/zameckydvur/" target="_blank">
+          <a href="https://kotalka.github.io/zameckydvur/">
             <img class="img-fluid" src="img/zamecky_dvur.png" alt="">
             <div class="text">
             </div>
@@ -91,7 +105,7 @@
         <p>Obsahové | Grafické zpracování
         </p>
         <li>
-          <a href="https://kotalka.github.io/Rossifotografka/" target="_blank">
+          <a href="https://kotalka.github.io/Rossifotografka/">
             <img class="img-fluid" src="img/Rossi.png" alt="">
             <div class="text">
             </div>
@@ -99,6 +113,18 @@
         </li>
       </ul>
     </div>
+
+      <div class="mt-5-a">
+        <h2 class="mb-4 text-domu">Ceny</h2>
+        <ul class="resume-list">
+          <li>
+            <h4 class="mb-3">Obecné informace o cenotvorbě</h4>
+              <p class="text-justify">Je zřejmé, že cena tvorby obsahu může hrát při rozhodování důležitou roli a vaše finální 
+                rozhodnutí o využití služeb mohou být různá. Proto je možné využití bezplatné hodinové konzultace 
+                o veškerých nabízených možnostech a cenách, které se různí s ohledem na vaše požadavky.</p>
+          </li>
+        </ul>
+      </div>
 
       <div class="mt-5-a">
         <h2 class="mb-4 text-domu">Kontaktujte Mne</h2>
