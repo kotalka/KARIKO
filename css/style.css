@@ -22,6 +22,7 @@ body {
 #domu {
   background-color: #89CBC9;
   color: white;
+
 }
 
 #zarovka {
@@ -33,6 +34,21 @@ body {
   stroke-dasharray: 700;
   stroke-dashoffset: 700;
   animation: dash 12s linear alternate infinite;
+}
+
+.pathstrom {
+  stroke-dasharray: 1800;
+  stroke-dashoffset: 1800;
+  animation: dash 12s linear alternate infinite;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1800;
+  }
+  to {
+    stroke-dashoffset: 000;
+  }
 }
 
 @keyframes dash {
@@ -1644,6 +1660,17 @@ main {
   -webkit-animation: loader-dash 1.5s ease-in-out infinite;
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round;
+}
+
+
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1800;
+  }
+  to {
+    stroke-dashoffset: 000;
+  }
 }
 
 @-webkit-keyframes loader-rotate {
