@@ -33,23 +33,8 @@ body {
 .path {
   stroke-dasharray: 700;
   stroke-dashoffset: 700;
-  animation: dash 12s linear alternate infinite;
+  animation: dash 25s linear alternate infinite;
 }
-
-/* .pathstrom {
-  stroke-dasharray: 1800;
-  stroke-dashoffset: 1800;
-  animation: dash 12s linear alternate infinite;
-}
-
-@keyframes dash {
-  from {
-    stroke-dashoffset: 1800;
-  }
-  to {
-    stroke-dashoffset: 000;
-  }
-} */
 
 @keyframes dash {
   from {
