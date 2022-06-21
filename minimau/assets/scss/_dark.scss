@@ -1,0 +1,624 @@
+/*----------------------------------------*/
+/*  14. Dark Version CSS
+/*----------------------------------------*/
+.dark-version {
+    background-color: $heading-color;
+    color: $white;
+    
+    // Common Style
+    & p {
+        color: $white;
+    }
+    & h1, & h2, & h3, & h4, & h5, & h6 {
+        color: $white;
+    }
+    & .main-wrapper {
+        background-color: $heading-color;
+    }
+    & .bg-white {
+        background-color: $heading-color !important;
+    }
+    & .bg-grey {
+        background-color: lighten($heading-color, 3) !important;
+    }
+    & .nicescroll-cursors {
+        border-color: transparent !important;
+        background-color: rgab($black, 0.5) !important;
+    }
+    
+    // Fullpage Section
+    & .fp-section {
+        @media #{$tablet-device}{
+            &:nth-child(2n+1) {
+                background-color: #292929;
+            }
+        }
+        @media #{$large-mobile}{
+            &:nth-child(2n+1) {
+                background-color: #292929;
+            }
+        }
+    }
+    
+    // Header Style
+    & .header-logo {
+        & a {
+            & img {
+                opacity: 0;
+                &.light-logo {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    & .main-menu {
+        & > ul {
+            & > li {
+                & > a {
+                    color: $white;
+                }
+                &.current, &.active, &:hover {
+                    & > a {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    & .sub-menu {
+        background-color: $heading-color;
+        & li {
+            border-bottom: 1px solid rgba($white, 0.1);
+            &:last-child {
+                border-bottom: none;
+            }
+            & a {
+                color: $white;
+            }
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $white;
+                }
+            }
+        }
+    }
+    & .header-social {
+        & a {
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    & .side-header {
+        background-color: $heading-color;
+        border-color: #3f3f3f;
+    }
+    & .side-header-toggle {
+        & span {
+            background-color: $white;
+            &::before, &::after {
+                background-color: $white;
+            }
+        }
+        &.toggle-close {
+            & span {
+                background-color: transparent;
+            }
+        }
+    }
+    & .side-header-close {
+        & span {
+            &::before, &::after {
+                background-color: $white;
+            }
+        }
+    }
+    & .side-header-logo {
+        & a {
+            & img {
+                opacity: 0;
+                &.light-logo {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    & nav.side-menu {
+        & > ul {
+            & > li {
+                & > a {
+                    color: $white;
+                    & > i.menu-expand {
+                        background-color: rgba($white, 0.1);
+                        color: $white;
+                        &.fa-angle-up {
+                            background-color: rgba($black, 0.8);
+                        }
+                    }
+                }
+                &.current, &.active, &:hover {
+                    & > a {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    & .side-sub-menu {
+        & > li {
+            & > a {
+                color: $white;
+                & > i.menu-expand {
+                    background-color: rgba($white, 0.1);
+                    color: $white;
+                    &.fa-angle-up {
+                        background-color: rgba($black, 0.8);
+                    }
+                }
+            }
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $white;
+                }
+            }
+        }
+    }
+    & .side-header-contact-info {
+        & p {
+            color: $white;
+            & a {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    & .side-header-social {
+        & a {
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    & .side-header-copyright {
+        & p {
+            color: $white;
+            & a {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    
+    & div#fp-nav {
+        & li {
+            & a {
+                border-color: $white;
+                &.active {
+                    background-color: $white;
+                }
+            }
+
+            & .fp-tooltip {
+                color: $heading-color;
+                background-color: $white;
+                &::before {
+                    border-color: transparent transparent transparent $white;
+                }
+                &.right {
+                    &::before {
+                        border-left-color: $white;
+                    }
+                }
+                &.left {
+                    &::before {
+                        border-right-color: $white;
+                    }
+                }
+            }
+        }
+    }
+    
+    // About Style
+    & .personal-info {
+        & li {
+            color: $white;
+            & span {
+                color: $white;
+            }
+        }
+    }
+    & .single-skill {
+        & span {
+            color: $white;
+        }
+        & .skill-bar {
+            & .skill-progress {
+                &::before {
+                    color: $white;
+                }
+            }
+        }
+    }
+    
+    // Team Style
+    & .team-inner {
+        & .team-content {
+            background-color: $heading-color;
+            & .team-social {
+                & a {
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Portfolio Style
+    & .portfolio-item {
+        & .portfolio-image {
+            &::before {
+                background-color: $heading-color;
+            }
+        }
+        & .portfolio-content {
+            & .title {
+                & a {
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+            & .category {
+                & a {
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+        &:hover {
+            & .portfolio-image {
+                &::before {
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+    & .portfolio-slider-5-nav {
+        & .slick-arrow {
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    & .load-more-btn {
+        color: $white;
+        &:hover {
+            color: $white;
+        }
+    }
+    & .portfolio-details-content {
+        & .category {
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+        & ul.project-info {
+            & li {
+                & span {
+                    color: $white;
+                }
+                & a {
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+        & .project-share {
+            & span {
+                display: block;
+                color: $white;
+            }
+            & a {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+        & .project-nav {
+            border-color: rgba($white, 0.3);
+            & a {
+                width: 50%;
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+                & span {
+                    color: $white;
+                }
+            }
+        }
+    }
+    
+    // Blog Style
+    & .blog-item {
+        & .blog-content {
+            & .blog-title {
+                color: $white;
+                & a {
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+            & .blog-meta {
+                & li {
+                    color: $white;
+                    & a {
+                        color: $white;
+                        &:hover {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            & .read-more {
+                & a {
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    & .load-blog-btn {
+        color: $white;
+        &:hover {
+            color: $white;
+        }
+    }
+    & .blog-item-details {
+        & .blog-content {
+            & .blog-title {
+                color: $white;
+            }
+            & .blog-meta {
+                & li {
+                    color: $white;
+                    & a {
+                        color: $white;
+                        &:hover {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            & .blog-desc {
+                & blockquote {
+                    border-color: $white;
+                    & p {
+                        color: $white;
+                    }
+                }
+            }
+        }
+        & .blog-footer {
+            border-color: rgba($white, 0.3);
+            & .blog-social-share {
+                & a {
+                    border: 1px solid $white;
+                    color: $white;
+                    &:hover {
+                        background-color: $white;
+                        color: $heading-color;
+                    }
+                }
+            }
+            & .post-nav {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    
+    // Comment Style
+    & .single-comment {
+        & .content {
+            & span {
+                color: $white;
+            }
+        }
+        & .reply {
+            & a {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    & .comment-form {
+        & input {
+            color: $white;
+            border-color: rgba($white, 0.3);
+            &:focus {
+                border-color: $white;
+            }
+            &[type="submit"] {
+                color: $heading-color;
+                background-color: $white;
+                &:hover {
+                    background-color: $white;
+                }
+            }
+        }
+        & textarea {
+            color: $white;
+            border-color: rgba($white, 0.3);
+            &:focus {
+                border-color: $white;
+            }
+        }
+    }
+    
+    // Sidebar Style
+    & .sidebar-search {
+        & input {
+            color: $white;
+            border-color: rgba($white, 0.3);
+            &:focus {
+                border-color: $white;
+            }
+        }
+        & button {
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    & .sidebar-list {
+        & li {
+            & a {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    & .sidebar-post {
+        & li {
+            & a {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+            & span {
+                color: $white;
+            }
+        }
+    }
+    & .sidebar-tags {
+        & a {
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    
+    // Contact Style
+    & .contact-form {
+        & input {
+            color: $white;
+            border-color: rgba($white, 0.3);
+            &:focus {
+                border-color: $white;
+            }
+            &[type="submit"] {
+                color: $white;
+                border-color: $white;
+                &:hover {
+                    color: $white;
+                    border-color: $white;
+                }
+            }
+        }
+        & textarea {
+            color: $white;
+            border-color: rgba($white, 0.3);
+            &:focus {
+                border-color: $white;
+            }
+        }
+    }
+    & .contact-info {
+        & ul {
+            & li {
+                color: $white;
+                span {
+                    color: $white;
+                }
+                & a {
+                    color: $white;
+                    &:hover {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Footer Style
+    & .footer-copyright {
+        & p {
+            & a {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    & .footer-search {
+        & form {
+            & input {
+                color: $white;
+                border-color: rgba($white, 0.3);
+                &:focus {
+                    border-color: $white;
+                }
+            }
+            & button {
+                color: $white;
+                &:hover {
+                    color: $white;
+                }
+            }
+        }
+    }
+    
+    // 404 Style
+    & .error-404-content {
+        & h3 {
+            color: $white;
+        }
+        & a {
+            color: $white;
+            &:hover {
+                color: $white;
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

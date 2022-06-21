@@ -1,0 +1,1606 @@
+/*----------------------------------------*/
+/*  15. Color Variation CSS
+/*----------------------------------------*/
+
+// Color Version One
+.color-var-1 {
+    
+    // Fullpage Nav
+    & div#fp-nav {
+        & li {
+            & a {
+                border: 1px solid $theme-color-1;
+                &.active {
+                    background-color: $theme-color-1;
+                }
+            }
+            & .fp-tooltip {
+                background-color: $theme-color-1;
+                &::before {
+                    border-color: transparent transparent transparent $theme-color-1;
+                }
+            }
+        }
+    }
+    
+    // Header Style
+    & .main-menu {
+        & > ul {
+            & > li {
+                &.current, &.active, &:hover {
+                    & > a {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+    }
+    & .sub-menu {
+        & li {
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    & .header-social {
+        & a {
+            &:hover {
+                color: $theme-color-1;
+            }
+        }
+    }
+    & nav.side-menu {
+        & > ul {
+            & > li {
+                & > a {
+                    & > i.menu-expand {
+                        &.fa-angle-up {
+                            background-color: $theme-color-1;
+                        }
+                    }
+                }
+                &.current, &.active, &:hover {
+                    & > a {
+                       color: $theme-color-1;
+                    }
+                }
+            }
+        }
+    }
+    & .side-sub-menu {
+        & > li {
+            & > a {
+                & > i.menu-expand {
+                    &.fa-angle-up {
+                        background-color: $theme-color-1;
+                    }
+                }
+            }
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    & .side-header-contact-info {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    & .side-header-social {
+        & a {
+            &:hover {
+                color: $theme-color-1;
+            }
+        }
+    }
+    & .side-header-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    
+    // About Style
+    & .single-skill {
+        & .skill-bar {
+            & .skill-progress {
+                background-color: $theme-color-1;
+                &::after {
+                    background-color: $theme-color-1;
+                }
+            }
+        }
+    }
+    
+    // Portfolio Style
+    & .portfolio-item {
+        & .portfolio-content {
+            & .title {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+            & .category {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+    }
+    & .portfolio-slider-5-nav {
+        & .slick-arrow {
+            &:hover {
+                color: $theme-color-1;
+            }
+        }
+    }
+    & .load-more-btn {
+        &:hover {
+            color: $theme-color-1;
+        }
+    }
+    & .portfolio-details-content {
+        & .category {
+            &:hover {
+                color: $theme-color-1;
+            }
+        }
+        & ul.project-info {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+        & .project-share {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+        & .project-nav {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    
+    // Team Style
+    & .team-inner {
+        & .team-content {
+            & span {
+                border-color: $theme-color-1;
+            }
+            & .team-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .team-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    
+    // Blog Style
+    & .blog-item {
+        & .blog-content {
+            & .blog-title {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-1;
+                        }
+                    }
+                }
+            }
+            & .read-more {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+    }
+    & .load-blog-btn {
+        &:hover {
+            color: $theme-color-1;
+        }
+    }
+    & .blog-item-details {
+        & .blog-content {
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-1;
+                        }
+                    }
+                }
+            }
+            & .blog-desc {
+                & blockquote {
+                    border-left: 2px solid $theme-color-1;
+                }
+            }
+        }
+        & .blog-footer {
+            & .blog-social-share {
+                & a {
+                    &:hover {
+                        border-color: $theme-color-1;
+                        background-color: $theme-color-1;
+                    }
+                }
+            }
+            & .post-nav {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    
+    // Comment Style
+    & .single-comment {
+        & .reply {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    & .comment-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-1;
+            }
+            &[type="submit"] {
+                &:hover {
+                    background-color: $theme-color-1;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-1;
+            }
+        }
+    }
+    
+    // Sidebar Style
+    & .sidebar-search {
+        position: relative;
+        & input {
+            &:focus {
+                border-color: $theme-color-1;
+            }
+        }
+        & button {
+            &:hover {
+                color: $theme-color-1;
+            }
+        }
+    }
+    & .sidebar-list {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    & .sidebar-post {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    & .sidebar-tags {
+        & a {
+            &:hover {
+                color: $theme-color-1;
+            }
+        }
+    }
+    
+    // Contact Style
+    & .contact-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-1;
+            }
+            &[type="submit"] {
+                &:hover {
+                    color: $theme-color-1;
+                    border-color: $theme-color-1;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-1;
+            }
+        }
+    }
+    & .contact-info {
+        & ul {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-1;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Footer Style
+    & .footer-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+    & .footer-search {
+        & form {
+            & input {
+                &:focus {
+                    border-color: $theme-color-1;
+                }
+            }
+            & button {
+                &:hover {
+                    color: $theme-color-1;
+                }
+            }
+        }
+    }
+      
+}
+
+
+// Color Version Two
+.color-var-2 {
+    
+    // Fullpage Nav
+    & div#fp-nav {
+        & li {
+            & a {
+                border: 1px solid $theme-color-2;
+                &.active {
+                    background-color: $theme-color-2;
+                }
+            }
+            & .fp-tooltip {
+                background-color: $theme-color-2;
+                &::before {
+                    border-color: transparent transparent transparent $theme-color-2;
+                }
+            }
+        }
+    }
+    
+    // Header Style
+    & .main-menu {
+        & > ul {
+            & > li {
+                &.current, &.active, &:hover {
+                    & > a {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+    }
+    & .sub-menu {
+        & li {
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    & .header-social {
+        & a {
+            &:hover {
+                color: $theme-color-2;
+            }
+        }
+    }
+    & nav.side-menu {
+        & > ul {
+            & > li {
+                & > a {
+                    & > i.menu-expand {
+                        &.fa-angle-up {
+                            background-color: $theme-color-2;
+                        }
+                    }
+                }
+                &.current, &.active, &:hover {
+                    & > a {
+                       color: $theme-color-2;
+                    }
+                }
+            }
+        }
+    }
+    & .side-sub-menu {
+        & > li {
+            & > a {
+                & > i.menu-expand {
+                    &.fa-angle-up {
+                        background-color: $theme-color-2;
+                    }
+                }
+            }
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    & .side-header-contact-info {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    & .side-header-social {
+        & a {
+            &:hover {
+                color: $theme-color-2;
+            }
+        }
+    }
+    & .side-header-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    
+    // About Style
+    & .single-skill {
+        & .skill-bar {
+            & .skill-progress {
+                background-color: $theme-color-2;
+                &::after {
+                    background-color: $theme-color-2;
+                }
+            }
+        }
+    }
+    
+    // Portfolio Style
+    & .portfolio-item {
+        & .portfolio-content {
+            & .title {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+            & .category {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+    }
+    & .portfolio-slider-5-nav {
+        & .slick-arrow {
+            &:hover {
+                color: $theme-color-2;
+            }
+        }
+    }
+    & .load-more-btn {
+        &:hover {
+            color: $theme-color-2;
+        }
+    }
+    & .portfolio-details-content {
+        & .category {
+            &:hover {
+                color: $theme-color-2;
+            }
+        }
+        & ul.project-info {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+        & .project-share {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+        & .project-nav {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    
+    // Team Style
+    & .team-inner {
+        & .team-content {
+            & span {
+                border-color: $theme-color-2;
+            }
+            & .team-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .team-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    
+    // Blog Style
+    & .blog-item {
+        & .blog-content {
+            & .blog-title {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-2;
+                        }
+                    }
+                }
+            }
+            & .read-more {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+    }
+    & .load-blog-btn {
+        &:hover {
+            color: $theme-color-2;
+        }
+    }
+    & .blog-item-details {
+        & .blog-content {
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-2;
+                        }
+                    }
+                }
+            }
+            & .blog-desc {
+                & blockquote {
+                    border-left: 2px solid $theme-color-2;
+                }
+            }
+        }
+        & .blog-footer {
+            & .blog-social-share {
+                & a {
+                    &:hover {
+                        border-color: $theme-color-2;
+                        background-color: $theme-color-2;
+                    }
+                }
+            }
+            & .post-nav {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    
+    // Comment Style
+    & .single-comment {
+        & .reply {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    & .comment-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-2;
+            }
+            &[type="submit"] {
+                &:hover {
+                    background-color: $theme-color-2;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-2;
+            }
+        }
+    }
+    
+    // Sidebar Style
+    & .sidebar-search {
+        position: relative;
+        & input {
+            &:focus {
+                border-color: $theme-color-2;
+            }
+        }
+        & button {
+            &:hover {
+                color: $theme-color-2;
+            }
+        }
+    }
+    & .sidebar-list {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    & .sidebar-post {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    & .sidebar-tags {
+        & a {
+            &:hover {
+                color: $theme-color-2;
+            }
+        }
+    }
+    
+    // Contact Style
+    & .contact-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-2;
+            }
+            &[type="submit"] {
+                &:hover {
+                    color: $theme-color-2;
+                    border-color: $theme-color-2;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-2;
+            }
+        }
+    }
+    & .contact-info {
+        & ul {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-2;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Footer Style
+    & .footer-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+    & .footer-search {
+        & form {
+            & input {
+                &:focus {
+                    border-color: $theme-color-2;
+                }
+            }
+            & button {
+                &:hover {
+                    color: $theme-color-2;
+                }
+            }
+        }
+    }
+      
+}
+
+
+// Color Version Three
+.color-var-3 {
+    
+    // Fullpage Nav
+    & div#fp-nav {
+        & li {
+            & a {
+                border: 1px solid $theme-color-3;
+                &.active {
+                    background-color: $theme-color-3;
+                }
+            }
+            & .fp-tooltip {
+                background-color: $theme-color-3;
+                &::before {
+                    border-color: transparent transparent transparent $theme-color-3;
+                }
+            }
+        }
+    }
+    
+    // Header Style
+    & .main-menu {
+        & > ul {
+            & > li {
+                &.current, &.active, &:hover {
+                    & > a {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+    }
+    & .sub-menu {
+        & li {
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    & .header-social {
+        & a {
+            &:hover {
+                color: $theme-color-3;
+            }
+        }
+    }
+    & nav.side-menu {
+        & > ul {
+            & > li {
+                & > a {
+                    & > i.menu-expand {
+                        &.fa-angle-up {
+                            background-color: $theme-color-3;
+                        }
+                    }
+                }
+                &.current, &.active, &:hover {
+                    & > a {
+                       color: $theme-color-3;
+                    }
+                }
+            }
+        }
+    }
+    & .side-sub-menu {
+        & > li {
+            & > a {
+                & > i.menu-expand {
+                    &.fa-angle-up {
+                        background-color: $theme-color-3;
+                    }
+                }
+            }
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    & .side-header-contact-info {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    & .side-header-social {
+        & a {
+            &:hover {
+                color: $theme-color-3;
+            }
+        }
+    }
+    & .side-header-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    
+    // About Style
+    & .single-skill {
+        & .skill-bar {
+            & .skill-progress {
+                background-color: $theme-color-3;
+                &::after {
+                    background-color: $theme-color-3;
+                }
+            }
+        }
+    }
+    
+    // Portfolio Style
+    & .portfolio-item {
+        & .portfolio-content {
+            & .title {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+            & .category {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+    }
+    & .portfolio-slider-5-nav {
+        & .slick-arrow {
+            &:hover {
+                color: $theme-color-3;
+            }
+        }
+    }
+    & .load-more-btn {
+        &:hover {
+            color: $theme-color-3;
+        }
+    }
+    & .portfolio-details-content {
+        & .category {
+            &:hover {
+                color: $theme-color-3;
+            }
+        }
+        & ul.project-info {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+        & .project-share {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+        & .project-nav {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    
+    // Team Style
+    & .team-inner {
+        & .team-content {
+            & span {
+                border-color: $theme-color-3;
+            }
+            & .team-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .team-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    
+    // Blog Style
+    & .blog-item {
+        & .blog-content {
+            & .blog-title {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-3;
+                        }
+                    }
+                }
+            }
+            & .read-more {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+    }
+    & .load-blog-btn {
+        &:hover {
+            color: $theme-color-3;
+        }
+    }
+    & .blog-item-details {
+        & .blog-content {
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-3;
+                        }
+                    }
+                }
+            }
+            & .blog-desc {
+                & blockquote {
+                    border-left: 2px solid $theme-color-3;
+                }
+            }
+        }
+        & .blog-footer {
+            & .blog-social-share {
+                & a {
+                    &:hover {
+                        border-color: $theme-color-3;
+                        background-color: $theme-color-3;
+                    }
+                }
+            }
+            & .post-nav {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    
+    // Comment Style
+    & .single-comment {
+        & .reply {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    & .comment-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-3;
+            }
+            &[type="submit"] {
+                &:hover {
+                    background-color: $theme-color-3;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-3;
+            }
+        }
+    }
+    
+    // Sidebar Style
+    & .sidebar-search {
+        position: relative;
+        & input {
+            &:focus {
+                border-color: $theme-color-3;
+            }
+        }
+        & button {
+            &:hover {
+                color: $theme-color-3;
+            }
+        }
+    }
+    & .sidebar-list {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    & .sidebar-post {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    & .sidebar-tags {
+        & a {
+            &:hover {
+                color: $theme-color-3;
+            }
+        }
+    }
+    
+    // Contact Style
+    & .contact-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-3;
+            }
+            &[type="submit"] {
+                &:hover {
+                    color: $theme-color-3;
+                    border-color: $theme-color-3;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-3;
+            }
+        }
+    }
+    & .contact-info {
+        & ul {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-3;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Footer Style
+    & .footer-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+    & .footer-search {
+        & form {
+            & input {
+                &:focus {
+                    border-color: $theme-color-3;
+                }
+            }
+            & button {
+                &:hover {
+                    color: $theme-color-3;
+                }
+            }
+        }
+    }
+      
+}
+
+
+// Color Version Four
+.color-var-4 {
+    
+    // Fullpage Nav
+    & div#fp-nav {
+        & li {
+            & a {
+                border: 1px solid $theme-color-4;
+                &.active {
+                    background-color: $theme-color-4;
+                }
+            }
+            & .fp-tooltip {
+                background-color: $theme-color-4;
+                &::before {
+                    border-color: transparent transparent transparent $theme-color-4;
+                }
+            }
+        }
+    }
+    
+    // Header Style
+    & .main-menu {
+        & > ul {
+            & > li {
+                &.current, &.active, &:hover {
+                    & > a {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+    }
+    & .sub-menu {
+        & li {
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    & .header-social {
+        & a {
+            &:hover {
+                color: $theme-color-4;
+            }
+        }
+    }
+    & nav.side-menu {
+        & > ul {
+            & > li {
+                & > a {
+                    & > i.menu-expand {
+                        &.fa-angle-up {
+                            background-color: $theme-color-4;
+                        }
+                    }
+                }
+                &.current, &.active, &:hover {
+                    & > a {
+                       color: $theme-color-4;
+                    }
+                }
+            }
+        }
+    }
+    & .side-sub-menu {
+        & > li {
+            & > a {
+                & > i.menu-expand {
+                    &.fa-angle-up {
+                        background-color: $theme-color-4;
+                    }
+                }
+            }
+            &.current, &.active, &:hover {
+                & > a {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    & .side-header-contact-info {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    & .side-header-social {
+        & a {
+            &:hover {
+                color: $theme-color-4;
+            }
+        }
+    }
+    & .side-header-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    
+    // About Style
+    & .single-skill {
+        & .skill-bar {
+            & .skill-progress {
+                background-color: $theme-color-4;
+                &::after {
+                    background-color: $theme-color-4;
+                }
+            }
+        }
+    }
+    
+    // Portfolio Style
+    & .portfolio-item {
+        & .portfolio-content {
+            & .title {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+            & .category {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+    }
+    & .portfolio-slider-5-nav {
+        & .slick-arrow {
+            &:hover {
+                color: $theme-color-4;
+            }
+        }
+    }
+    & .load-more-btn {
+        &:hover {
+            color: $theme-color-4;
+        }
+    }
+    & .portfolio-details-content {
+        & .category {
+            &:hover {
+                color: $theme-color-4;
+            }
+        }
+        & ul.project-info {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+        & .project-share {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+        & .project-nav {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    
+    // Team Style
+    & .team-inner {
+        & .team-content {
+            & span {
+                border-color: $theme-color-4;
+            }
+            & .team-social {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+
+        &:hover {
+            & .team-content {
+                transform: translateY(-50%);
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    
+    // Blog Style
+    & .blog-item {
+        & .blog-content {
+            & .blog-title {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-4;
+                        }
+                    }
+                }
+            }
+            & .read-more {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+    }
+    & .load-blog-btn {
+        &:hover {
+            color: $theme-color-4;
+        }
+    }
+    & .blog-item-details {
+        & .blog-content {
+            & .blog-meta {
+                & li {
+                    & a {
+                        &:hover {
+                            color: $theme-color-4;
+                        }
+                    }
+                }
+            }
+            & .blog-desc {
+                & blockquote {
+                    border-left: 2px solid $theme-color-4;
+                }
+            }
+        }
+        & .blog-footer {
+            & .blog-social-share {
+                & a {
+                    &:hover {
+                        border-color: $theme-color-4;
+                        background-color: $theme-color-4;
+                    }
+                }
+            }
+            & .post-nav {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    
+    // Comment Style
+    & .single-comment {
+        & .reply {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    & .comment-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-4;
+            }
+            &[type="submit"] {
+                &:hover {
+                    background-color: $theme-color-4;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-4;
+            }
+        }
+    }
+    
+    // Sidebar Style
+    & .sidebar-search {
+        position: relative;
+        & input {
+            &:focus {
+                border-color: $theme-color-4;
+            }
+        }
+        & button {
+            &:hover {
+                color: $theme-color-4;
+            }
+        }
+    }
+    & .sidebar-list {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    & .sidebar-post {
+        & li {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    & .sidebar-tags {
+        & a {
+            &:hover {
+                color: $theme-color-4;
+            }
+        }
+    }
+    
+    // Contact Style
+    & .contact-form {
+        & input {
+            &:focus {
+                border-color: $theme-color-4;
+            }
+            &[type="submit"] {
+                &:hover {
+                    color: $theme-color-4;
+                    border-color: $theme-color-4;
+                }
+            }
+        }
+        & textarea {
+            &:focus {
+                border-color: $theme-color-4;
+            }
+        }
+    }
+    & .contact-info {
+        & ul {
+            & li {
+                & a {
+                    &:hover {
+                        color: $theme-color-4;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Footer Style
+    & .footer-copyright {
+        & p {
+            & a {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+    & .footer-search {
+        & form {
+            & input {
+                &:focus {
+                    border-color: $theme-color-4;
+                }
+            }
+            & button {
+                &:hover {
+                    color: $theme-color-4;
+                }
+            }
+        }
+    }
+      
+}

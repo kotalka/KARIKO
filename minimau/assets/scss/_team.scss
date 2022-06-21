@@ -1,0 +1,72 @@
+/*----------------------------------------*/
+/*  10. Team CSS
+/*----------------------------------------*/
+
+/*-- Team Item --*/
+.team-item {}
+
+/*-- Team Inner --*/
+.team-inner {
+    position: relative;
+    
+    /*-- Image --*/
+    & img {
+        width: 100%;
+    }
+    /*-- Content --*/
+    & .team-content {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        visibility: hidden;
+        background-color: $white;
+        text-align: center;
+        padding: 40px 20px;
+        transition: all 0.3s ease 0s;
+        & h4 {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 17px;
+        }
+        & span {
+            display: block;
+            width: 200px;
+            font-size: 14px;
+            line-height: 31px;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            border-top: 1px  solid $body-color;
+            border-bottom: 1px  solid $body-color;
+            margin: auto;
+        }
+        
+        /*-- Team Social --*/
+        & .team-social {
+            margin-top: 15px;
+            display: flex;
+            flex: 1 0 100%;
+            width: 100%;
+            justify-content: center;
+            & a {
+                margin: 0 12px;
+                & i {}
+                &:hover {
+                    color: $heading-color;
+                }
+            }
+        }
+    }
+    
+    &:hover {
+        & .team-content {
+            transform: translateY(-50%);
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}

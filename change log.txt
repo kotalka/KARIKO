@@ -1,0 +1,27 @@
+Change Log:    03.07.21 - VERSION:1.0.6
+=========================================
+1. perfect scrollbar plugin update from 1.4.0 to 1.5.0
+
+
+Change Log:    25.11.19 - VERSION:1.0.5
+=========================================
+Fix: Remove customizer panel from downloadable file
+
+
+Change Log:    25.11.19 - VERSION:1.0.4
+========================================
+Fix: Remove customizer panel from downloadable file
+
+Change Log:    14.10.19 - VERSION:1.0.3
+=======================================
+Added: One home page added
+
+
+Change Log:    15.09.19 - VERSION:1.0.2
+========================================
+Added: One home page added
+
+
+Change Log:    13.04.19 - VERSION:1.0.1
+========================================
+Fixed: Full page mobile menu issue fix

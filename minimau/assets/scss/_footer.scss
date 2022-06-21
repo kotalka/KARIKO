@@ -1,0 +1,113 @@
+/*----------------------------------------*/
+/*  13. Footer CSS
+/*----------------------------------------*/
+.footer-section {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+        
+    // Responsive
+    @media #{$tablet-device}{
+        position: static;
+    }
+    @media #{$large-mobile}{
+        position: static;
+    }
+    & .container-fluid {
+        padding: 0 170px;
+
+        // Responsive
+        @media #{$laptop-device}{
+            padding: 0 50px;
+        }
+        @media #{$desktop-device}{
+            padding: 0 40px;
+        }
+        @media #{$tablet-device}{
+            padding: 0 40px;
+        }
+        @media #{$large-mobile}{
+            padding: 0 40px;
+        }
+        @media #{$small-mobile}{
+            padding: 0 25px;
+        }
+    }
+}
+
+/*-- Footer Copyright --*/
+.footer-copyright {
+    & p {
+        font-size: 14px;
+        text-transform: uppercase;
+        margin: 0;
+        line-height: 30px;
+        & a {
+            color: $body-color;
+            &:hover {
+                color: $heading-color;
+            }
+        }
+
+        // Responsive
+        @media #{$tablet-device}{
+            text-align: center;
+        }
+        @media #{$large-mobile}{
+            text-align: center;
+            font-size: 13px;
+        }
+    }
+}
+
+/*-- Footer Search --*/
+.footer-search {
+    & form {
+        text-align: right;
+        position: relative;
+        max-width: 300px;
+        margin-left: auto;
+
+        // Responsive
+        @media #{$tablet-device}{
+            margin: auto
+        }
+        @media #{$large-mobile}{
+            margin: auto
+        }
+        & input {
+            width: 100%;
+            border: 0 solid transparent;
+            font-size: 14px;
+            color: $body-color;
+            text-transform: uppercase;
+            line-height: 30px;
+            height: 30px;
+            background-color: transparent;
+            border-bottom: 1px solid #cccccc;
+            padding-right: 20px;
+    
+            // Responsive
+            @media #{$large-mobile}{
+                font-size: 13px;
+            }
+        }
+        & button {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: transparent;
+            border: none;
+            padding: 0;
+            & i {
+                line-height: 30px;
+                display: block;
+                font-size: 16px;
+            }
+            &:hover {
+                color: $heading-color;
+            }
+        }
+    }
+}

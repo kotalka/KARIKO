@@ -1,0 +1,347 @@
+/*----------------------------------------*/
+/*  06. Portfolio CSS
+/*----------------------------------------*/
+
+/*-- Portfolio Item --*/
+.portfolio-item {
+    position: relative;
+    
+    // Portfolio Image
+    & .portfolio-image {
+        display: block;
+        position: relative;
+        z-index: 1;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: $white;
+            opacity: 0;
+            z-index: 2;
+            transition: all 0.3s ease 0s;
+        }
+        & img {
+            width: 100%;
+        }
+    }
+    // Portfolio Content
+    & .portfolio-content {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        padding: 0 15px;
+        text-align: center;
+        z-index: 4;
+        
+        & .title {
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+            transform: translateY(-15px);
+            opacity: 0;
+            transition: all 0.3s ease 0s;
+            & a {
+                color: $heading-color;
+                &:hover {
+                    color: $heading-color;
+                }
+            }
+        }
+        & .category {
+            display: block;
+            line-height: 1;
+            transform: translateY(15px);
+            opacity: 0;
+            transition: all 0.3s ease 0s;
+            & a {
+                display: inline-block;
+                line-height: 1;
+                letter-spacing: 1px;
+                font-size: 14px;
+                color: $body-color;
+                &:hover {
+                    color: $heading-color;
+                }
+            }
+        }
+    }
+    
+    &:hover {
+        & .portfolio-image {
+            &::before {
+                opacity: 0.8;
+            }
+        }
+        & .portfolio-content {
+            
+            & .title {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            & .category {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    }
+    
+    &.portfolio-screen-height {
+        & .portfolio-image {
+            height: calc(100vh - 200px);
+            background-position: center;
+            background-size: cover;
+
+            // Responsive
+            @media #{$large-mobile}{
+                min-height: 335px;
+            }
+        }
+    }
+}
+
+/*-- Portfolio Slider --*/
+.portfolio-slider-5-nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    &::before {
+        content: "/";
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translateX(-50%);
+    }
+    & .slick-arrow {
+        display: block;
+        float: left;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        text-transform: uppercase;
+        margin: 0 15px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: $body-color;
+        &:hover {
+            color: $heading-color;
+        }
+    
+        // Responsive
+        @media #{$large-mobile}{
+            font-size: 14px;
+        }
+    }
+}
+
+/*-- Portfolio Five Column Wrap --*/
+.portfolio-column-five {
+    margin-bottom: -15px;
+    & [class*="col-"] {
+        flex: 1 0 20%;
+        max-width: 20%;
+
+        // Responsive
+        @media #{$laptop-device}{
+            flex: 1 0 25%;
+            max-width: 25%;
+        }
+        @media #{$desktop-device}{
+            flex: 1 0 33.33%;
+            max-width: 33.33%;
+        }
+        @media #{$tablet-device}{
+            flex: 1 0 50%;
+            max-width: 50%;
+        }
+        @media #{$large-mobile}{
+            flex: 1 0 50%;
+            max-width: 50%;
+        }
+        @media #{$small-mobile}{
+            flex: 1 0 100%;
+            max-width: 100%;
+        }
+    }
+}
+/*-- Portfolio Four & Three Column Wrap --*/
+.portfolio-column-four, .portfolio-column-three {
+    margin-bottom: -15px;
+}
+
+/*-- Load More Button --*/
+.load-more-btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    text-transform: uppercase;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: $heading-color;
+    &:hover {
+        color: $heading-color;
+    }
+    
+    // Responsive
+    @media #{$large-mobile}{
+        font-size: 14px;
+    }
+}
+
+/*-- Portfolio Details Image --*/
+.portfolio-details-image {
+    & img {
+        width: 100%;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/*-- Portfolio Details Content --*/
+.portfolio-details-content {
+    padding-left: 30px;
+    
+    // Responsive
+    @media #{$tablet-device}{
+        padding-left: 15px;
+    }
+    @media #{$large-mobile}{
+        padding-left: 15px;
+    }
+    & .category {
+        font-size: 16px;
+        color: $body-color;
+        line-height: 1;
+        display: inline-block;
+        margin-bottom: 15px;
+        font-family: $heading-font;
+        &:hover {
+            color: $heading-color;
+        }
+    }
+    & .title {
+        display: block;
+        font-size: 24px;
+        line-height: 1;
+        margin-bottom: 20px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    
+        // Responsive
+        @media #{$large-mobile}{
+            font-size: 24px;
+        }
+    }
+    & p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    
+    & ul.project-info {
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        & li {
+            display: block;
+            margin-bottom: 10px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            & span {
+                display: block;
+                font-size: 14px;
+                font-weight: 600;
+                color: $heading-color;
+            }
+            & a {
+                color: $body-color;
+                &:hover {
+                    color: $heading-color;
+                }
+                &::after {
+                    content: ",";
+                }
+                &:last-child {
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    
+    & .project-share {
+        display: flex;
+        flex: 1 0 100%;
+        flex-wrap: wrap;
+        & span {
+            display: block;
+            font-size: 16px;
+            font-weight: 600;
+            color: $heading-color;
+            margin-right: 15px;
+        }
+        & a {
+            color: $body-color;
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                color: $heading-color;
+            }
+            & i {
+                display: block;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+    }
+    
+    & .project-nav {
+        overflow: hidden;
+        margin-top: 35px;
+        border-top: 1px solid #eeeeee;
+        padding-top: 20px;
+        & a {
+            font-size: 14px;
+            color: $body-color;
+            font-weight: 600;
+            font-family: $heading-font;
+            & span {
+                display: block;
+                font-size: 14px;
+                color: $heading-color;
+                text-transform: capitalize;
+                font-weight: 400;
+                font-family: $body-font;
+            }
+            
+            &.prev-project {
+                float: left;
+                text-align: left;
+            }
+            &.next-project {
+                float: right;
+                text-align: right;
+            }
+            &:hover {
+                color: $heading-color;
+            }
+        }
+    }
+}

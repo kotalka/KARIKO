@@ -1,0 +1,77 @@
+/*----------------------------------------*/
+/*  12. 404 CSS
+/*----------------------------------------*/
+
+/*-- Error 404 Wrap --*/
+.error-404-wrap {
+    height: 100vh;
+    padding: 0 15px;
+    
+    // Responsive
+    @media #{$tablet-device}{
+        height: auto !important;
+    }
+    @media #{$large-mobile}{
+        height: auto !important;
+    }
+}
+
+/*-- Error 404 Image --*/
+.error-404-image {
+    & img {
+        max-width: 100%;
+    }
+}
+
+/*-- Error 404 Content --*/
+.error-404-content {
+    & h1 {
+        font-size: 72px;
+        line-height: 1;
+        font-weight: 800;
+        margin-bottom: 32px;
+    }
+    & h3 {
+        font-size: 24px;
+        line-height: 36px;
+        color: $body-color;
+        letter-spacing: 0.5px;
+        margin-bottom: 80px;
+        max-width: 515px;
+    }
+    & a {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: $heading-color;
+    }
+    
+    // Responsive
+    @media #{$tablet-device}{
+        & h1 {
+            font-size: 60px;
+        }
+        & h3 {
+            margin-bottom: 40px;
+        }
+    }
+    @media #{$large-mobile}{
+        & h1 {
+            font-size: 60px;
+        }
+        & h3 {
+            margin-bottom: 40px;
+        }
+    }
+    @media #{$small-mobile}{
+        & h1 {
+            font-size: 40px;
+        }
+        & h3 {
+            font-size: 18px;
+            line-height: 28px;
+            margin-bottom: 30px;
+        }
+    }
+}
