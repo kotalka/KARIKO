@@ -33,6 +33,12 @@
 /*-- Google Font --*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,600,600i,800");
 /*-- Common Style --*/
+
+@media (max-width: 767px){
+.hidden-xs {
+    display: none!important;
+}}
+
 *, *::after, *::before {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
