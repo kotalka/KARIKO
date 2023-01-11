@@ -35,6 +35,26 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 
+#zarovka {
+    height: 45vh;
+    margin-top: -115px;
+}
+
+.path {
+    stroke-dasharray: 700;
+    stroke-dashoffset: 700;
+    animation: dash 25s linear alternate infinite;
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: 700;
+    }
+    to {
+        stroke-dashoffset: 000;
+    }
+}
+
 
 /*-- Google Font --*/
 
